@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Qui">¿Quién?</string>
+    <string name="Que">¿Què?</string>
+    <string name="On">¿Dónde?</string>
+    <string name="Escena">Escena</string>
+
+
+    <string name="Personatge">Crea un personaje</string>
+    <string name="Ocupacio">Ocupación</string>
+    <string name="Caracteristica">Adjectivos</string>
+    <string name="Mania">Manias</string>
+
+
+    <string name="Frase">Reto</string>
+    <string name="Paraula">Palabra</string>
+    <string name="Estil">Estilo</string>
+    <string name="Restriccio">Restricción</string>
+
+
+    <string name="Info">Info</string>
+    <string name="Settings">Ajustes</string>
+    <string name="Idiomes">Escoje un idioma:</string>
+    <string name="en">Inglés</string>
+    <string name="es">Español</string>
+    <string name="cat">Catalán</string>
+    <string name="fr">Francés</string>
+    <string name="mode">Modo noche</string>
+</resources>

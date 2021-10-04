@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="32dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/pplescena_boto"
+            style="@style/TextIniciStyle"
+            android:text="@string/Escena"
+            android:onClick="openEscenaActivity"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/pplpers_boto"
+            style="@style/TextIniciStyle"
+            android:text="@string/Personatge"
+            android:onClick="openPersonatgeActivity"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/pplfrase_boto"
+            style="@style/TextIniciStyle"
+            android:text="@string/Frase"
+            android:onClick="openFraseActivity"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/info_boto"
+                style="@style/TextBotoInici"
+                android:text="@string/Info"
+                android:onClick="openInfoActivity"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"/>
+            <Button
+                android:id="@+id/settings_boto"
+                style="@style/TextBotoInici"
+                android:text="@string/Settings"
+                android:onClick="openSettingsActivity"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

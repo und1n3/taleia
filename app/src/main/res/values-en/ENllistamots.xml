@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="adjectius">
+
+        <item>	Cheerful	</item>
+        <item>	Alert	</item>
+        <item>	Algid	</item>
+        <item>	Strange	</item>
+        <item>	Allergic	</item>
+        <item>	Haughty	</item>
+        <item>	Altruistic	</item>
+        <item>	Friendly	</item>
+        <item>	Bitter	</item>
+        <item>	Ambitious	</item>
+        <item>	Ambiguous	</item>
+        <item>	Friendly	</item>
+        <item>	Amoral	</item>
+        <item>	Width	</item>
+        <item>	Analytical	</item>
+        <item>	Anarchic	</item>
+        <item>	Angelic	</item>
+        <item>	Angular	</item>
+        <item>	Animated	</item>
+        <item>	Anonymous	</item>
+        <item>	Anorexic	</item>
+        <item>	Anxious	</item>
+        <item>	Old	</item>
+        <item>	Unfriendly	</item>
+        <item>	Sticky	</item>
+        <item>	Appetizing	</item>
+        <item>	Burning	</item>
+        <item>	Arrythmic	</item>
+        <item>	Moth-Eaten	</item>
+        <item>	Bristly	</item>
+        <item>	Artistic	</item>
+        <item>	Aseptic	</item>
+        <item>	Asthmatic	</item>
+        <item>	Rough	</item>
+        <item>	Sensible	</item>
+        <item>	Astral	</item>
+        <item>	Cunning	</item>
+        <item>	Voyeur	</item>
+        <item>	Seized	</item>
+        <item>	Blessed	</item>
+        <item>	Drinker	</item>
+        <item>	Blasphemous	</item>
+        <item>	Goody	</item>
+        <item>	Bravo	</item>
+        <item>	Warm	</item>
+        <item>	Hot	</item>
+        <item>	Heated	</item>
+        <item>	Slow	</item>
+        <item>	Tired	</item>
+        <item>	Hoary	</item>
+        <item>	Able	</item>
+        <item>	Captivating	</item>
+        <item>	Charitable	</item>
+        <item>	Carnal	</item>
+        <item>	Heavenly	</item>
+        <item>	Ashen	</item>
+        <item>	Sparkling	</item>
+        <item>	Centered	</item>
+        <item>	Cerebral	</item>
+        <item>	Cynical	</item>
+        <item>	Clinical	</item>
+        <item>	Combative	</item>
+        <item>	Comfortable	</item>
+        <item>	Compassionate	</item>
+        <item>	Competitive	</item>
+        <item>	Complicated	</item>
+        <item>	Compassionate	</item>
+        <item>	Contrite	</item>
+        <item>	Compulsive	</item>
+        <item>	Known	</item>
+        <item>	Trusted	</item>
+        <item>	Confused	</item>
+        <item>	Annoyed	</item>
+        <item>	Contrasting	</item>
+        <item>	Startling	</item>
+        <item>	Poetic	</item>
+        <item>	Cosmopolitan	</item>
+        <item>	Conceited	</item>
+        <item>	Blind	</item>
+        <item>	Cryptic	</item>
+        <item>	Crystalline	</item>
+        <item>	Critical	</item>
+        <item>	Curious	</item>
+        <item>	Decent	</item>
+        <item>	Decided	</item>
+        <item>	Decrepit	</item>
+        <item>	Defender	</item>
+        <item>	Definite	</item>
+        <item>	Misshapen	</item>
+        <item>	Anxious	</item>
+        <item>	Crazy	</item>
+        <item>	Emaciated	</item>
+        <item>	Depressant	</item>
+        <item>	Decompressed	</item>
+        <item>	Disenchanted	</item>
+        <item>	Disabused	</item>
+        <item>	Bleak	</item>
+        <item>	Shameless	</item>
+        <item>	Dissident	</item>
+        <item>	Diurnal	</item>
+        <item>	Sweet	</item>
+        <item>	Doubtful	</item>
+        <item>	Ecological	</item>
+        <item>	Economizer	</item>
+        <item>	Effeminate	</item>
+        <item>	Effervescent	</item>
+        <item>	Ephemeral	</item>
+        <item>	Effusive	</item>
+        <item>	Amorous	</item>
+        <item>	Demoniac	</item>
+        <item>	Energetic	</item>
+        <item>	Enigmatic	</item>
+        <item>	Erotic	</item>
+        <item>	Erratic	</item>
+        <item>	Crazy	</item>
+        <item>	Scarce	</item>
+        <item>	Cunning	</item>
+        <item>	Daunted	</item>
+        <item>	Sporadic	</item>
+        <item>	Swindler	</item>
+        <item>	Strange	</item>
+        <item>	Strident	</item>
+        <item>	Exuberant	</item>
+        <item>	Exalted	</item>
+        <item>	Exotic	</item>
+        <item>	Experienced	</item>
+        <item>	Hungry	</item>
+        <item>	Family	</item>
+        <item>	Weak	</item>
+        <item>	Firm	</item>
+        <item>	Fictional	</item>
+        <item>	Fundamental	</item>
+        <item>	Strongman	</item>
+        <item>	Fragile	</item>
+        <item>	Fragrant	</item>
+        <item>	Galant	</item>
+        <item>	Funny	</item>
+        <item>	Graceful	</item>
+        <item>	Great	</item>
+        <item>	Gray	</item>
+        <item>	Serious	</item>
+        <item>	Big	</item>
+        <item>	Rude	</item>
+        <item>	Yellow	</item>
+        <item>	Harmonic	</item>
+        <item>	Hygienic	</item>
+        <item>	Homicide	</item>
+        <item>	Honorable	</item>
+        <item>	Ideal	</item>
+        <item>	Illuminated	</item>
+        <item>	Illegal	</item>
+        <item>	Illiterate	</item>
+        <item>	Illogical	</item>
+        <item>	Imaginative	</item>
+        <item>	Immature	</item>
+        <item>	Still	</item>
+        <item>	Undaunted	</item>
+        <item>	Unthinkable	</item>
+        <item>	Impersonal	</item>
+        <item>	Impressionable	</item>
+        <item>	Impure	</item>
+        <item>	Unachievable	</item>
+        <item>	Imperturbable	</item>
+        <item>	Inactive	</item>
+        <item>	Misfit	</item>
+        <item>	Unalterable	</item>
+        <item>	Unbearable	</item>
+        <item>	Unheard	</item>
+        <item>	Unwary	</item>
+        <item>	Colorless	</item>
+        <item>	Unconscious	</item>
+        <item>	Misunderstood	</item>
+        <item>	Annoying	</item>
+        <item>	Uncultivated	</item>
+        <item>	Searcher	</item>
+        <item>	Undecided	</item>
+        <item>	Undesirable	</item>
+        <item>	Independent	</item>
+        <item>	Undefined	</item>
+        <item>	Helpless	</item>
+        <item>	Indestructible	</item>
+        <item>	Indecipherable	</item>
+        <item>	Individualistic	</item>
+        <item>	Painless	</item>
+        <item>	Indomitable	</item>
+        <item>	Inexperienced	</item>
+        <item>	Expressionless	</item>
+        <item>	Infallible	</item>
+        <item>	Informal	</item>
+        <item>	Unsuccessful	</item>
+        <item>	Harmless	</item>
+        <item>	Innocent	</item>
+        <item>	Restless	</item>
+        <item>	Instrumental	</item>
+        <item>	Intact	</item>
+        <item>	Intriguing	</item>
+        <item>	Useless	</item>
+        <item>	Irreducible	</item>
+        <item>	Irritable	</item>
+        <item>	Irresponsible	</item>
+        <item>	Irreverent	</item>
+        <item>	Avenger	</item>
+        <item>	Laborious	</item>
+        <item>	Liturgical	</item>
+        <item>	Tearful	</item>
+        <item>	Pitiful	</item>
+        <item>	Logical	</item>
+        <item>	Luxurious	</item>
+        <item>	Lean	</item>
+        <item>	Sullied	</item>
+        <item>	Magnetic	</item>
+        <item>	Masterly	</item>
+        <item>	Majestic	</item>
+        <item>	Evil One	</item>
+        <item>	Malicious	</item>
+        <item>	Malicious	</item>
+        <item>	Unkempt	</item>
+        <item>	Spendthrift	</item>
+        <item>	Melancholic	</item>
+        <item>	Damned	</item>
+        <item>	Maniac	</item>
+        <item>	Maniac	</item>
+        <item>	Outcast	</item>
+        <item>	Masochistic	</item>
+        <item>	Mediator	</item>
+        <item>	Mediocre	</item>
+        <item>	Thoughtful	</item>
+        <item>	Mellow	</item>
+        <item>	Small	</item>
+        <item>	Wonderful	</item>
+        <item>	Marine	</item>
+        <item>	Mean	</item>
+        <item>	Methodical	</item>
+        <item>	Microscopic	</item>
+        <item>	Minimalist	</item>
+        <item>	Myopic	</item>
+        <item>	Miserable	</item>
+        <item>	Mythical	</item>
+        <item>	Misogynist	</item>
+        <item>	Mythological	</item>
+        <item>	Mythomaniacal	</item>
+        <item>	Modest	</item>
+        <item>	Exemplary	</item>
+        <item>	Moral	</item>
+        <item>	Immortal	</item>
+        <item>	Mortal	</item>
+        <item>	Motivic	</item>
+        <item>	Movable	</item>
+        <item>	Muscular	</item>
+        <item>	Pearly	</item>
+        <item>	Native	</item>
+        <item>	Naïf	</item>
+        <item>	Narcissism	</item>
+        <item>	Narrative	</item>
+        <item>	Naturist	</item>
+        <item>	Ghoul	</item>
+        <item>	Cleansed	</item>
+        <item>	Neurotic	</item>
+        <item>	Neutral	</item>
+        <item>	Nervous	</item>
+        <item>	Nourished	</item>
+        <item>	Fictional	</item>
+        <item>	Naked	</item>
+        <item>	Nullity	</item>
+        <item>	Nourished	</item>
+        <item>	Open	</item>
+        <item>	Obedient	</item>
+        <item>	Forgettable	</item>
+        <item>	Obscene	</item>
+        <item>	Dark	</item>
+        <item>	Obsessive	</item>
+        <item>	Stubborn	</item>
+        <item>	Obsolete	</item>
+        <item>	Obtuse	</item>
+        <item>	Obvious	</item>
+        <item>	Odious	</item>
+        <item>	Insulted	</item>
+        <item>	Offensive	</item>
+        <item>	Odorous	</item>
+        <item>	Opaque	</item>
+        <item>	Timely	</item>
+        <item>	Oppressive	</item>
+        <item>	Ostentatious	</item>
+        <item>	Rusty	</item>
+        <item>	Patient	</item>
+        <item>	Peaceful	</item>
+        <item>	Pale	</item>
+        <item>	Lofty	</item>
+        <item>	Passive	</item>
+        <item>	Pathetic	</item>
+        <item>	Slow	</item>
+        <item>	Bare	</item>
+        <item>	Furry	</item>
+        <item>	Painful	</item>
+        <item>	Perfect	</item>
+        <item>	Perverted	</item>
+        <item>	Disturbed	</item>
+        <item>	Small	</item>
+        <item>	Hot Spicy	</item>
+        <item>	Weeping	</item>
+        <item>	Powerful	</item>
+        <item>	Possessive	</item>
+        <item>	Possible	</item>
+        <item>	False	</item>
+        <item>	Posthumous	</item>
+        <item>	Powerful	</item>
+        <item>	Beautiful	</item>
+        <item>	Predominant	</item>
+        <item>	Favorite	</item>
+        <item>	Prepare	</item>
+        <item>	Worthy	</item>
+        <item>	Primordial	</item>
+        <item>	Primitive	</item>
+        <item>	Deep	</item>
+        <item>	Proliferous	</item>
+        <item>	Protective	</item>
+        <item>	Providential	</item>
+        <item>	Provocative	</item>
+        <item>	Smelly	</item>
+        <item>	Pusillanimous	</item>
+        <item>	Quiet	</item>
+        <item>	Radiant	</item>
+        <item>	Rancid	</item>
+        <item>	Reluctant	</item>
+        <item>	Repulsive	</item>
+        <item>	Replacement	</item>
+        <item>	Resolved	</item>
+        <item>	Retrograde	</item>
+        <item>	Smiling	</item>
+        <item>	Rigid	</item>
+        <item>	Rudimentary	</item>
+        <item>	Rural	</item>
+        <item>	Rude	</item>
+        <item>	Sacrilegious	</item>
+        <item>	Self-Sacrificing	</item>
+        <item>	Thick	</item>
+        <item>	Healthy	</item>
+        <item>	Dry	</item>
+        <item>	Lean	</item>
+        <item>	High School	</item>
+        <item>	Serene	</item>
+        <item>	Serious	</item>
+        <item>	Severe	</item>
+        <item>	Secretive	</item>
+        <item>	Symmetrical	</item>
+        <item>	Simple	</item>
+        <item>	Nice	</item>
+        <item>	Silky	</item>
+        <item>	Succulent	</item>
+        <item>	Singular	</item>
+        <item>	Sun	</item>
+        <item>	Dreamer	</item>
+        <item>	Sonorous	</item>
+        <item>	Soft	</item>
+        <item>	Smoothness	</item>
+        <item>	Objective	</item>
+        <item>	Subjective	</item>
+        <item>	Tactical	</item>
+        <item>	Tenacious	</item>
+        <item>	Warm	</item>
+        <item>	Cloudy	</item>
+        <item>	Terrible	</item>
+        <item>	Terrifying	</item>
+        <item>	Typical	</item>
+        <item>	Tyrannical	</item>
+        <item>	Obstinacy	</item>
+        <item>	Betray	</item>
+        <item>	Only	</item>
+        <item>	Brave	</item>
+        <item>	Vain	</item>
+        <item>	Valuable	</item>
+        <item>	Vaporous	</item>
+        <item>	Virtuous	</item>
+        <item>	Truthful	</item>
+        <item>	Violent	</item>
+        <item>	Virtual	</item>
+        <item>	Volcanic	</item>
+        <item>	Vulnerable	</item>
+        <item>	Vulgar	</item>
+        <item>	Charlatan	</item>
+        <item>	Talkative	</item>
+        <item>	Leave	</item>
+        <item>	Dejected	</item>
+        <item>	Abject	</item>
+        <item>	Abominable	</item>
+        <item>	Chubby	</item>
+        <item>	Abrupt	</item>
+        <item>	Absent	</item>
+        <item>	Absorbed	</item>
+        <item>	Abstract	</item>
+        <item>	Abstracted	</item>
+        <item>	Absurd	</item>
+        <item>	Abound	</item>
+        <item>	Academic	</item>
+        <item>	Heatedly	</item>
+        <item>	Accessible	</item>
+        <item>	Acid	</item>
+        <item>	Cozy	</item>
+        <item>	Colored	</item>
+        <item>	Accommodated	</item>
+        <item>	Acre	</item>
+        <item>	Acrobatic	</item>
+        <item>	Achromia	</item>
+        <item>	Acoustic	</item>
+        <item>	Adherent	</item>
+        <item>	Flatterer	</item>
+        <item>	Aerial	</item>
+        <item>	Flattering	</item>
+        <item>	Weak	</item>
+        <item>	Becoming	</item>
+        <item>	Aphonic	</item>
+        <item>	Aphrodisiac	</item>
+        <item>	Agile	</item>
+        <item>	Agitated	</item>
+        <item>	Agnostic	</item>
+        <item>	Nice	</item>
+        <item>	Sour	</item>
+        <item>	Aggressive	</item>
+        <item>	Group	</item>
+        <item>	Acute	</item>
+        <item>	Alarmed	</item>
+        <item>	Albino	</item>
+    </string-array>
+
+    <string-array name="paraules">
+
+        <item>	Random	</item>
+        <item>	Aileron	</item>
+        <item>	Flutter	</item>
+        <item>	Alpha	</item>
+        <item>	Saddlebag	</item>
+        <item>	Algorithm	</item>
+        <item>	Alliance	</item>
+        <item>	Avalanche	</item>
+        <item>	Hallelujah	</item>
+        <item>	Allegory	</item>
+        <item>	Hallucination	</item>
+        <item>	Alchemy	</item>
+        <item>	Aluminum	</item>
+        <item>	Hiding Place	</item>
+        <item>	Amalgam	</item>
+        <item>	Bitterness	</item>
+        <item>	Ambient	</item>
+        <item>	Amber	</item>
+        <item>	Friend	</item>
+        <item>	Love	</item>
+        <item>	Bottle	</item>
+        <item>	Anagram	</item>
+        <item>	Soul	</item>
+        <item>	Annexed	</item>
+        <item>	Anonymity	</item>
+        <item>	Antirust	</item>
+        <item>	Whim	</item>
+        <item>	Anus	</item>
+        <item>	Ad	</item>
+        <item>	Meeting	</item>
+        <item>	Apology	</item>
+        <item>	Ring	</item>
+        <item>	Anorak	</item>
+        <item>	Antenna	</item>
+        <item>	Antidote	</item>
+        <item>	Algae	</item>
+        <item>	Oak	</item>
+        <item>	Almond	</item>
+        <item>	Cashew	</item>
+        <item>	Garlic	</item>
+        <item>	Weapon	</item>
+        <item>	Tree	</item>
+        <item>	Clay	</item>
+        <item>	Silver	</item>
+        <item>	Ram	</item>
+        <item>	Harpoon	</item>
+        <item>	Harp	</item>
+        <item>	Earring	</item>
+        <item>	Root	</item>
+        <item>	Arsenic	</item>
+        <item>	Art	</item>
+        <item>	Artery	</item>
+        <item>	Archive	</item>
+        <item>	Scourge	</item>
+        <item>	Star	</item>
+        <item>	Autopsy	</item>
+        <item>	Fault	</item>
+        <item>	Adventure	</item>
+        <item>	Azure	</item>
+        <item>	Berry	</item>
+        <item>	Ballad	</item>
+        <item>	Bullet	</item>
+        <item>	Balance	</item>
+        <item>	Swinging	</item>
+        <item>	Rocker	</item>
+        <item>	Spinning Top	</item>
+        <item>	Atom	</item>
+        <item>	Crossbow	</item>
+        <item>	Balm	</item>
+        <item>	Bamboo	</item>
+        <item>	Band	</item>
+        <item>	Banjo	</item>
+        <item>	Horn	</item>
+        <item>	Bathrobe	</item>
+        <item>	Bar	</item>
+        <item>	Scales	</item>
+        <item>	Puddle	</item>
+        <item>	Slime	</item>
+        <item>	Good	</item>
+        <item>	Wart	</item>
+        <item>	Kiss	</item>
+        <item>	Baby Bottle	</item>
+        <item>	Bike	</item>
+        <item>	White	</item>
+        <item>	Wick	</item>
+        <item>	Blog	</item>
+        <item>	Buoy	</item>
+        <item>	Holly	</item>
+        <item>	Bowl	</item>
+        <item>	Mushroom	</item>
+        <item>	Bomb	</item>
+        <item>	Bubble	</item>
+        <item>	Fuzzy	</item>
+        <item>	Raft	</item>
+        <item>	Button	</item>
+        <item>	Arm	</item>
+        <item>	Gills	</item>
+        <item>	Bray	</item>
+        <item>	Gap	</item>
+        <item>	Joke	</item>
+        <item>	Trash	</item>
+        <item>	Mist	</item>
+        <item>	Wheeze	</item>
+        <item>	Pocket	</item>
+        <item>	Carrycot	</item>
+        <item>	Ball	</item>
+        <item>	Cacophony	</item>
+        <item>	Corpse	</item>
+        <item>	Puppy	</item>
+        <item>	Cadence	</item>
+        <item>	Coffee	</item>
+        <item>	Box	</item>
+        <item>	Calculation	</item>
+        <item>	Chalice	</item>
+        <item>	Slander	</item>
+        <item>	Leg	</item>
+        <item>	Comrade	</item>
+        <item>	Camellia	</item>
+        <item>	Bell	</item>
+        <item>	Canon	</item>
+        <item>	Change	</item>
+        <item>	Cane	</item>
+        <item>	None	</item>
+        <item>	Chapter	</item>
+        <item>	License	</item>
+        <item>	Car	</item>
+        <item>	Letter	</item>
+        <item>	Wallet	</item>
+        <item>	Jingle Bell	</item>
+        <item>	Ash	</item>
+        <item>	Chance	</item>
+        <item>	Spark	</item>
+        <item>	Central	</item>
+        <item>	Century	</item>
+        <item>	Circle	</item>
+        <item>	Crest	</item>
+        <item>	Cycle	</item>
+        <item>	Science	</item>
+        <item>	Chickpea	</item>
+        <item>	Candle	</item>
+        <item>	Basket	</item>
+        <item>	Demands	</item>
+        <item>	Key	</item>
+        <item>	Climax	</item>
+        <item>	Conclusion	</item>
+        <item>	Pebble	</item>
+        <item>	Column	</item>
+        <item>	Colour	</item>
+        <item>	Conclusion	</item>
+        <item>	Condor	</item>
+        <item>	Trust	</item>
+        <item>	Advice	</item>
+        <item>	Consensus	</item>
+        <item>	Query	</item>
+        <item>	Pollution	</item>
+        <item>	Contour	</item>
+        <item>	Contortion	</item>
+        <item>	Reluctantly	</item>
+        <item>	Counterattack	</item>
+        <item>	Counterweight	</item>
+        <item>	Password	</item>
+        <item>	Knock	</item>
+        <item>	Heart	</item>
+        <item>	Raven	</item>
+        <item>	Horn	</item>
+        <item>	Crown	</item>
+        <item>	Current	</item>
+        <item>	Belt	</item>
+        <item>	Curtain	</item>
+        <item>	Cosmic	</item>
+        <item>	Rib	</item>
+        <item>	Crest	</item>
+        <item>	Cross	</item>
+        <item>	Chrysalis	</item>
+        <item>	Crisis	</item>
+        <item>	Crust	</item>
+        <item>	Tail	</item>
+        <item>	Cube	</item>
+        <item>	Spoon	</item>
+        <item>	Overflowing	</item>
+        <item>	Dagger	</item>
+        <item>	Dau	</item>
+        <item>	Apron	</item>
+        <item>	Decor	</item>
+        <item>	Deflagration	</item>
+        <item>	Fast	</item>
+        <item>	Delicacy	</item>
+        <item>	Complaint	</item>
+        <item>	Disagreement	</item>
+        <item>	Neglect	</item>
+        <item>	Tie-Breaker	</item>
+        <item>	Disenchantment	</item>
+        <item>	Detail	</item>
+        <item>	Debt	</item>
+        <item>	Diamond	</item>
+        <item>	Target	</item>
+        <item>	Drawing	</item>
+        <item>	Excuse	</item>
+        <item>	Device	</item>
+        <item>	Distance	</item>
+        <item>	Dragon	</item>
+        <item>	Drama	</item>
+        <item>	Duality	</item>
+        <item>	Tool	</item>
+        <item>	Swarm	</item>
+        <item>	Emblem	</item>
+        <item>	Mess	</item>
+        <item>	Bandage	</item>
+        <item>	Snort	</item>
+        <item>	Indigestion	</item>
+        <item>	Paw Print	</item>
+        <item>	Encyclopedia	</item>
+        <item>	Gear	</item>
+        <item>	Enigma	</item>
+        <item>	Scare	</item>
+        <item>	Snack	</item>
+        <item>	Balance	</item>
+        <item>	Error	</item>
+        <item>	Draft	</item>
+        <item>	Scale	</item>
+        <item>	Explosion	</item>
+        <item>	Broom	</item>
+        <item>	Shield	</item>
+        <item>	Sculpture	</item>
+        <item>	Sphere	</item>
+        <item>	Effort	</item>
+        <item>	Slogan	</item>
+        <item>	Space	</item>
+        <item>	Sword	</item>
+        <item>	Thorn	</item>
+        <item>	Mirror	</item>
+        <item>	Splendor	</item>
+        <item>	Spore	</item>
+        <item>	Stereotype	</item>
+        <item>	Label	</item>
+        <item>	Experiment	</item>
+        <item>	Extinction	</item>
+        <item>	Belt	</item>
+        <item>	Skirt	</item>
+        <item>	Hungry	</item>
+        <item>	Mud	</item>
+        <item>	Faith	</item>
+        <item>	Favor	</item>
+        <item>	Party	</item>
+        <item>	Final	</item>
+        <item>	Stench	</item>
+        <item>	Son	</item>
+        <item>	Final	</item>
+        <item>	Window	</item>
+        <item>	Fire	</item>
+        <item>	Flute	</item>
+        <item>	Arome	</item>
+        <item>	Flower	</item>
+        <item>	Fire	</item>
+        <item>	Focus	</item>
+        <item>	Sling	</item>
+        <item>	Gallow	</item>
+        <item>	Force	</item>
+        <item>	Cheese	</item>
+        <item>	Ant	</item>
+        <item>	Fortune	</item>
+        <item>	Photo	</item>
+        <item>	Fragrance	</item>
+        <item>	Fruit	</item>
+        <item>	Smoke	</item>
+        <item>	Fury	</item>
+        <item>	Cage	</item>
+        <item>	Bagpipes	</item>
+        <item>	Galley	</item>
+        <item>	Knife	</item>
+        <item>	Hook	</item>
+        <item>	Gas	</item>
+        <item>	Uproar	</item>
+        <item>	Gel	</item>
+        <item>	Ice	</item>
+        <item>	Knee	</item>
+        <item>	Turn	</item>
+        <item>	Drink	</item>
+        <item>	Throat	</item>
+        <item>	Greatness	</item>
+        <item>	Guide	</item>
+        <item>	Taste	</item>
+        <item>	Spark	</item>
+        <item>	Halo	</item>
+        <item>	Propeller	</item>
+        <item>	Hematoma	</item>
+        <item>	Grass	</item>
+        <item>	Hygiene	</item>
+        <item>	Hypothesis	</item>
+        <item>	Horoscope	</item>
+        <item>	Horror	</item>
+        <item>	Icon	</item>
+        <item>	Identity	</item>
+        <item>	Ideogram	</item>
+        <item>	Empire	</item>
+        <item>	Impulse	</item>
+        <item>	Incident	</item>
+        <item>	Incentive	</item>
+        <item>	Inclination	</item>
+        <item>	Indicator	</item>
+        <item>	Inhale	</item>
+        <item>	Instant	</item>
+        <item>	Childhood	</item>
+        <item>	Instrument	</item>
+        <item>	Intention	</item>
+        <item>	Interest	</item>
+        <item>	Inside	</item>
+        <item>	Inventory	</item>
+        <item>	Ivory	</item>
+        <item>	Jazz	</item>
+        <item>	Hieroglyph	</item>
+        <item>	Sweater	</item>
+        <item>	Hierarchy	</item>
+        <item>	Lacrimal	</item>
+        <item>	Sheet	</item>
+        <item>	Laxative	</item>
+        <item>	Injury	</item>
+        <item>	Liqueur	</item>
+        <item>	Liquid	</item>
+        <item>	Thunderbolt	</item>
+        <item>	Wool	</item>
+        <item>	Pencil	</item>
+        <item>	Stone	</item>
+        <item>	Can	</item>
+        <item>	Seed	</item>
+        <item>	Rheum	</item>
+        <item>	Freedom	</item>
+        <item>	Notebook	</item>
+        <item>	Book	</item>
+        <item>	Moon	</item>
+        <item>	Lottery	</item>
+        <item>	Luxury	</item>
+        <item>	Hand	</item>
+        <item>	Marble	</item>
+        <item>	Magma	</item>
+        <item>	Hex	</item>
+        <item>	Melancholia	</item>
+        <item>	Malice	</item>
+        <item>	Mania	</item>
+        <item>	Makeup	</item>
+        <item>	Stain	</item>
+        <item>	Map	</item>
+        <item>	Brand	</item>
+        <item>	Margin	</item>
+        <item>	Hammer	</item>
+        <item>	Pot	</item>
+        <item>	Mask	</item>
+        <item>	Mechanism	</item>
+        <item>	Medal	</item>
+        <item>	Medallion	</item>
+        <item>	Half	</item>
+        <item>	Melody	</item>
+        <item>	Membrane	</item>
+        <item>	Memory	</item>
+        <item>	Menhir	</item>
+        <item>	Mentality	</item>
+        <item>	Merit	</item>
+        <item>	Meteorite	</item>
+        <item>	Method	</item>
+        <item>	Wick	</item>
+        <item>	Mirror	</item>
+        <item>	Miracle	</item>
+        <item>	Mystery	</item>
+        <item>	Mirage	</item>
+        <item>	Myth	</item>
+        <item>	Mythology	</item>
+        <item>	Sock	</item>
+        <item>	Currency	</item>
+        <item>	Riot	</item>
+        <item>	Sample	</item>
+        <item>	Mold	</item>
+        <item>	Engine	</item>
+        <item>	Reason	</item>
+        <item>	Mucus	</item>
+        <item>	Move	</item>
+        <item>	Nipple	</item>
+        <item>	Crowd	</item>
+        <item>	Whisper	</item>
+        <item>	Mounting	</item>
+        <item>	Muscle	</item>
+        <item>	Music	</item>
+        <item>	Nation	</item>
+        <item>	Birth	</item>
+        <item>	Nostril	</item>
+        <item>	Buttock	</item>
+        <item>	Nausea	</item>
+        <item>	Nebula	</item>
+        <item>	Uneasiness	</item>
+        <item>	First Name	</item>
+        <item>	News	</item>
+        <item>	Knot	</item>
+        <item>	Cloud	</item>
+        <item>	Objection	</item>
+        <item>	Oblivion	</item>
+        <item>	Work	</item>
+        <item>	Obstacle	</item>
+        <item>	Hate	</item>
+        <item>	Offense	</item>
+        <item>	Wave	</item>
+        <item>	Opinion	</item>
+        <item>	Sentence	</item>
+        <item>	Order	</item>
+        <item>	Airing	</item>
+        <item>	Ear	</item>
+        <item>	Bone	</item>
+        <item>	Egg	</item>
+        <item>	Bread	</item>
+        <item>	Covenant	</item>
+        <item>	Page	</item>
+        <item>	Post	</item>
+        <item>	Palindrome	</item>
+        <item>	Palpitation	</item>
+        <item>	Panic	</item>
+        <item>	Banner	</item>
+        <item>	Screen	</item>
+        <item>	Paper	</item>
+        <item>	Parachute	</item>
+        <item>	Rag	</item>
+        <item>	Pause	</item>
+        <item>	Piece	</item>
+        <item>	Skin	</item>
+        <item>	Skin	</item>
+        <item>	Pain	</item>
+        <item>	Pendant	</item>
+        <item>	Pseudonym	</item>
+        <item>	Garment	</item>
+        <item>	Pawn	</item>
+        <item>	Parchment	</item>
+        <item>	Periplus	</item>
+        <item>	Pearl	</item>
+        <item>	Prize	</item>
+        <item>	Disturbance	</item>
+        <item>	Perversion	</item>
+        <item>	Plague	</item>
+        <item>	Footprint	</item>
+        <item>	Kiss	</item>
+        <item>	Shell	</item>
+        <item>	Peak	</item>
+        <item>	Piano	</item>
+        <item>	Latch	</item>
+        <item>	Battery	</item>
+        <item>	Ball	</item>
+        <item>	Pillar	</item>
+        <item>	Gun	</item>
+        <item>	Plague	</item>
+        <item>	Plate	</item>
+        <item>	Specification	</item>
+        <item>	Feather	</item>
+        <item>	Rain	</item>
+        <item>	Tire	</item>
+        <item>	Power	</item>
+        <item>	Button	</item>
+        <item>	Pinch	</item>
+        <item>	Powder	</item>
+        <item>	Pulse	</item>
+        <item>	Ointment	</item>
+        <item>	Fear	</item>
+        <item>	Door	</item>
+        <item>	Pore	</item>
+        <item>	Request	</item>
+        <item>	Caution	</item>
+        <item>	Prediction	</item>
+        <item>	Prize	</item>
+        <item>	Omen	</item>
+        <item>	Beginning	</item>
+        <item>	Privilege	</item>
+        <item>	Process	</item>
+        <item>	Projective	</item>
+        <item>	Promise	</item>
+        <item>	Purpose	</item>
+        <item>	Protocol	</item>
+        <item>	Prosthesis	</item>
+        <item>	Prototype	</item>
+        <item>	Test	</item>
+        <item>	Modesty	</item>
+        <item>	Purity	</item>
+        <item>	Qualification	</item>
+        <item>	Rage	</item>
+        <item>	Streak	</item>
+        <item>	Real	</item>
+        <item>	Memory	</item>
+        <item>	Redemption	</item>
+        <item>	Reflection	</item>
+        <item>	Present	</item>
+        <item>	Rumor	</item>
+        <item>	Route	</item>
+        <item>	Routine	</item>
+        <item>	Shoe	</item>
+        <item>	Taste	</item>
+        <item>	Soap	</item>
+        <item>	Saliva	</item>
+        <item>	Health	</item>
+        <item>	Salvation	</item>
+        <item>	Blood	</item>
+        <item>	Satellite	</item>
+        <item>	Serum	</item>
+        <item>	Sign	</item>
+        <item>	Symbol	</item>
+        <item>	Hiccup	</item>
+        <item>	Earthquake	</item>
+        <item>	Silk	</item>
+        <item>	Silence	</item>
+        <item>	Loneliness	</item>
+        <item>	Table	</item>
+        <item>	Touch	</item>
+        <item>	Card	</item>
+        <item>	Tattoo	</item>
+        <item>	Seal	</item>
+        <item>	Tissue	</item>
+        <item>	Telescope	</item>
+        <item>	Temperature	</item>
+        <item>	Theory	</item>
+        <item>	Thermometer	</item>
+        <item>	Text	</item>
+        <item>	Roof	</item>
+        <item>	Dye	</item>
+        <item>	Coffin	</item>
+        <item>	Trunk	</item>
+        <item>	Howl	</item>
+        <item>	Tusk	</item>
+        <item>	Ultrasound	</item>
+        <item>	Urn	</item>
+        <item>	Vaccine	</item>
+        <item>	Come To	</item>
+        <item>	Fan	</item>
+        <item>	Virtue	</item>
+        <item>	Vice	</item>
+        <item>	Glass	</item>
+        <item>	Vinegar	</item>
+        <item>	Return	</item>
+        <item>	Volume	</item>
+        <item>	Whisper	</item>
+        <item>	Zodiac	</item>
+        <item>	Buzz	</item>
+        <item>	Abacus	</item>
+        <item>	Tale	</item>
+        <item>	Coat	</item>
+        <item>	Steel	</item>
+        <item>	Accordion	</item>
+        <item>	Ornament	</item>
+        <item>	Airplane	</item>
+        <item>	Thrush	</item>
+        <item>	Agate	</item>
+        <item>	Nut	</item>
+        <item>	Needle	</item>
+        <item>	Armpit	</item>
+        <item>	Tap	</item>
+        <item>	Wing	</item>
+        <item>	Alabaster	</item>
+        <item>	Album	</item>
+        <item>	Alcohol	</item>
+        <item>	Abandonment	</item>
+        <item>	Abduction	</item>
+        <item>	Alphabet	</item>
+        <item>	Aberration	</item>
+        <item>	Abnegation	</item>
+        <item>	Abrasion	</item>
+        <item>	Abbreviation	</item>
+        <item>	Absolution	</item>
+        <item>	Abuse	</item>
+        <item>	Late	</item>
+        <item>	Accent	</item>
+        <item>	Attitude	</item>
+        <item>	Joke	</item>
+        <item>	Adoption	</item>
+        <item>	Eagerness	</item>
+        <item>	Affinity	</item>
+        <item>	Affliction	</item>
+        <item>	Ambush	</item>
+        <item>	Water	</item>
+        <item>	Downpour	</item>
+        <item>	Air	</item>
+        <item>	Help	</item>
+        <item>	Praise	</item>
+        <item>	Alarm	</item>
+
+    </string-array>
+
+    <string-array name="acció">
+        <item>	To Slow Down	</item>
+        <item>	To Dispose Of	</item>
+        <item>	To Feed	</item>
+        <item>	To Relieve	</item>
+        <item>	To Break Free	</item>
+        <item>	To Ward Off	</item>
+        <item>	To Alternate	</item>
+        <item>	To Tame	</item>
+        <item>	To Lull	</item>
+        <item>	To Love	</item>
+        <item>	To Soak	</item>
+        <item>	To Threat	</item>
+        <item>	To Amputate	</item>
+        <item>	To Level	</item>
+        <item>	To Annotate	</item>
+        <item>	To Turn Off	</item>
+        <item>	To Feign	</item>
+        <item>	To Postpone	</item>
+        <item>	To Apply	</item>
+        <item>	To Come Close	</item>
+        <item>	To Dip In Batter	</item>
+        <item>	To Tear	</item>
+        <item>	To Arrest	</item>
+        <item>	To Arrive	</item>
+        <item>	To Crimp	</item>
+        <item>	To Drag	</item>
+        <item>	To Aspire	</item>
+        <item>	To Point	</item>
+        <item>	To To Bully	</item>
+        <item>	To Sit Down	</item>
+        <item>	To Terrify	</item>
+        <item>	To Run Over	</item>
+        <item>	To Stop	</item>
+        <item>	To Damage	</item>
+        <item>	To Embarrass	</item>
+        <item>	To Gape	</item>
+        <item>	To Mix	</item>
+        <item>	To Swiveled	</item>
+        <item>	To Flutter	</item>
+        <item>	To Kiss	</item>
+        <item>	To Drink	</item>
+        <item>	To Blaspheme	</item>
+        <item>	To Overturn	</item>
+        <item>	To Shine	</item>
+        <item>	To Joke	</item>
+        <item>	To Blow	</item>
+        <item>	To Make Fun	</item>
+        <item>	To Need	</item>
+        <item>	To Calibrate	</item>
+        <item>	To Walk	</item>
+        <item>	To Sing	</item>
+        <item>	To Worry	</item>
+        <item>	To Capitulate	</item>
+        <item>	To Go Up	</item>
+        <item>	To Fall Out	</item>
+        <item>	To Celebrate	</item>
+        <item>	To Sparkle	</item>
+        <item>	To Center	</item>
+        <item>	To Stick	</item>
+        <item>	To Cease	</item>
+        <item>	To Nail	</item>
+        <item>	To See	</item>
+        <item>	To Place	</item>
+        <item>	To Start	</item>
+        <item>	To Commit	</item>
+        <item>	To Compare	</item>
+        <item>	To Make Up For	</item>
+        <item>	To Share	</item>
+        <item>	To Compete	</item>
+        <item>	To Compose	</item>
+        <item>	To Tell	</item>
+        <item>	To Communicate	</item>
+        <item>	To Conceive	</item>
+        <item>	To Condemn	</item>
+        <item>	To Confess	</item>
+        <item>	To Trust	</item>
+        <item>	To Comfort	</item>
+        <item>	To Confuse	</item>
+        <item>	To Freeze	</item>
+        <item>	To Conjure	</item>
+        <item>	To Comfort	</item>
+        <item>	To Consummate	</item>
+        <item>	To Contain	</item>
+        <item>	To Contradict	</item>
+        <item>	To Contrast	</item>
+        <item>	To Convince	</item>
+        <item>	To Convene	</item>
+        <item>	To Copy	</item>
+        <item>	To Bend	</item>
+        <item>	To Run	</item>
+        <item>	To Correspond	</item>
+        <item>	To Create	</item>
+        <item>	To Grow	</item>
+        <item>	To Criticize	</item>
+        <item>	To Look After	</item>
+        <item>	To Culminate	</item>
+        <item>	To Dance	</item>
+        <item>	To Decay	</item>
+        <item>	To Decide	</item>
+        <item>	To Defend	</item>
+        <item>	To Define	</item>
+        <item>	To Behead	</item>
+        <item>	To Leave	</item>
+        <item>	To Denigrate	</item>
+        <item>	To Shave	</item>
+        <item>	To Depress	</item>
+        <item>	To Debug	</item>
+        <item>	To Disarm	</item>
+        <item>	To Rest	</item>
+        <item>	To Undo	</item>
+        <item>	To Dehydrate	</item>
+        <item>	To Wish	</item>
+        <item>	To Detonate	</item>
+        <item>	To Defame	</item>
+        <item>	To Dictate	</item>
+        <item>	To Digest	</item>
+        <item>	To Tell	</item>
+        <item>	To Shoot	</item>
+        <item>	To Hide	</item>
+        <item>	To Distribute	</item>
+        <item>	To Diverge	</item>
+        <item>	To Hurt	</item>
+        <item>	To Double	</item>
+        <item>	To Last	</item>
+        <item>	To Shower	</item>
+        <item>	To Remove	</item>
+        <item>	To Raise	</item>
+        <item>	To Emerge	</item>
+        <item>	To Reflected	</item>
+        <item>	To Pale	</item>
+        <item>	To Anger	</item>
+        <item>	To Run Aground	</item>
+        <item>	To Love	</item>
+        <item>	To Get Right	</item>
+        <item>	To Sink	</item>
+        <item>	To Darken	</item>
+        <item>	To Lard	</item>
+        <item>	To Train	</item>
+        <item>	To Anger	</item>
+        <item>	To Err	</item>
+        <item>	To Delete	</item>
+        <item>	To Dishevel	</item>
+        <item>	To Jeer	</item>
+        <item>	To Climb	</item>
+        <item>	To Scald	</item>
+        <item>	To Strangle	</item>
+        <item>	To Spit	</item>
+        <item>	To Deafen	</item>
+        <item>	To Scrutinize	</item>
+        <item>	To Strive	</item>
+        <item>	To Exhaust	</item>
+        <item>	To Space	</item>
+        <item>	To Spoil	</item>
+        <item>	To Spy	</item>
+        <item>	To Shake	</item>
+        <item>	To Establish	</item>
+        <item>	To Soften	</item>
+        <item>	To Release	</item>
+        <item>	To Alarm	</item>
+        <item>	To Expand	</item>
+        <item>	To Manufacture	</item>
+        <item>	To Fill	</item>
+        <item>	To Put	</item>
+        <item>	To Filter	</item>
+        <item>	To Float Up	</item>
+        <item>	To Fluctuate	</item>
+        <item>	To Fry	</item>
+        <item>	To Spend	</item>
+        <item>	To Moan	</item>
+        <item>	To Scratch	</item>
+        <item>	To Win	</item>
+        <item>	To Save	</item>
+        <item>	To Cure	</item>
+        <item>	To Guide	</item>
+        <item>	To Hydrate	</item>
+        <item>	To Hibernate	</item>
+        <item>	To Illuminate	</item>
+        <item>	To Equalize	</item>
+        <item>	To Imagine	</item>
+        <item>	To Impose	</item>
+        <item>	To Inquire	</item>
+        <item>	To Insult	</item>
+        <item>	To Invoke	</item>
+        <item>	To Involve	</item>
+        <item>	To Iterate	</item>
+        <item>	To Play	</item>
+        <item>	To Judge	</item>
+        <item>	To Liquefy	</item>
+        <item>	To Bark	</item>
+        <item>	To Flirt	</item>
+        <item>	To Smooth	</item>
+        <item>	To Macerate	</item>
+        <item>	To Mature	</item>
+        <item>	To Send	</item>
+        <item>	To Map Out	</item>
+        <item>	To Mix	</item>
+        <item>	To Look	</item>
+        <item>	To Mystify	</item>
+        <item>	To Moderate	</item>
+        <item>	To Modify	</item>
+        <item>	To Taunt	</item>
+        <item>	To Die	</item>
+        <item>	To Motivate	</item>
+        <item>	To Show	</item>
+        <item>	To Move	</item>
+        <item>	To Move	</item>
+        <item>	To Wet	</item>
+        <item>	To Be Born	</item>
+        <item>	To Surf	</item>
+        <item>	To Negotiate	</item>
+        <item>	To Nourish	</item>
+        <item>	To Obey	</item>
+        <item>	To Forget	</item>
+        <item>	To Act	</item>
+        <item>	To Observe	</item>
+        <item>	To Block Up	</item>
+        <item>	To Cause	</item>
+        <item>	To Obtain	</item>
+        <item>	To Cause	</item>
+        <item>	To Obviate	</item>
+        <item>	To Occur	</item>
+        <item>	To Hate	</item>
+        <item>	To Hide	</item>
+        <item>	To Occupy	</item>
+        <item>	To Offer	</item>
+        <item>	To Hear	</item>
+        <item>	To Skip	</item>
+        <item>	To Operate	</item>
+        <item>	To Opine	</item>
+        <item>	To Put Up	</item>
+        <item>	To Press	</item>
+        <item>	To Optimize	</item>
+        <item>	To Pray	</item>
+        <item>	To Order	</item>
+        <item>	To Guide	</item>
+        <item>	To Ornate	</item>
+        <item>	To Range	</item>
+        <item>	To Agree	</item>
+        <item>	To Digest	</item>
+        <item>	To Feel	</item>
+        <item>	To Talk	</item>
+        <item>	To Give Birth	</item>
+        <item>	To Happen	</item>
+        <item>	To Take A Walk	</item>
+        <item>	To Suffer	</item>
+        <item>	To Rollerblading	</item>
+        <item>	To Sin	</item>
+        <item>	To Hang Up	</item>
+        <item>	To Perceive	</item>
+        <item>	To Forgive	</item>
+        <item>	To Perfect	</item>
+        <item>	To Punch Out	</item>
+        <item>	To Reward	</item>
+        <item>	To Disturb	</item>
+        <item>	To Pervert	</item>
+        <item>	To Fishing	</item>
+        <item>	To Chop	</item>
+        <item>	To Beg	</item>
+        <item>	To Chop	</item>
+        <item>	To Filch	</item>
+        <item>	To Soar	</item>
+        <item>	To Shape	</item>
+        <item>	To Fold	</item>
+        <item>	To Cry	</item>
+        <item>	To Rain	</item>
+        <item>	To Polish	</item>
+        <item>	To Pollute	</item>
+        <item>	To Wear	</item>
+        <item>	To Put	</item>
+        <item>	To Own	</item>
+        <item>	To Pray	</item>
+        <item>	To Press	</item>
+        <item>	To Premeditate	</item>
+        <item>	To Prepare	</item>
+        <item>	To Present	</item>
+        <item>	To Pretend	</item>
+        <item>	To Show Off	</item>
+        <item>	To Presumption	</item>
+        <item>	To Prevent	</item>
+        <item>	To Proceed	</item>
+        <item>	To Proclaim	</item>
+        <item>	To Ban	</item>
+        <item>	To Promise	</item>
+        <item>	To Pronounce	</item>
+        <item>	To Spread	</item>
+        <item>	To Promote	</item>
+        <item>	To Propose	</item>
+        <item>	To Propel	</item>
+        <item>	To Extend	</item>
+        <item>	To Provide	</item>
+        <item>	To Flourish	</item>
+        <item>	To Protest	</item>
+        <item>	To Provide	</item>
+        <item>	To Provoke	</item>
+        <item>	To Go Up	</item>
+        <item>	To Purge	</item>
+        <item>	To Stay	</item>
+        <item>	To Question	</item>
+        <item>	To Ration	</item>
+        <item>	To Radiate	</item>
+        <item>	To Reason	</item>
+        <item>	To Scrape	</item>
+        <item>	To Scratch	</item>
+        <item>	To React	</item>
+        <item>	To Burst	</item>
+        <item>	To Receive	</item>
+        <item>	To Refuse	</item>
+        <item>	To Recite	</item>
+        <item>	To Recommend	</item>
+        <item>	To Collect	</item>
+        <item>	To Remember	</item>
+        <item>	To Rectify	</item>
+        <item>	To Redeem	</item>
+        <item>	To Refresh	</item>
+        <item>	To Refuse	</item>
+        <item>	To Give Away	</item>
+        <item>	To Check In	</item>
+        <item>	To Reprimand	</item>
+        <item>	To Represent	</item>
+        <item>	To Reply	</item>
+        <item>	To Get Revenge	</item>
+        <item>	To Rekindle	</item>
+        <item>	To Revive	</item>
+        <item>	To Laughter	</item>
+        <item>	To Roll	</item>
+        <item>	To Snore	</item>
+        <item>	To Gnaw	</item>
+        <item>	To Rotate	</item>
+        <item>	To Spray	</item>
+        <item>	To Lather	</item>
+        <item>	To Sacrifice	</item>
+        <item>	To Skip	</item>
+        <item>	To Save	</item>
+        <item>	To Feel	</item>
+        <item>	To Mean	</item>
+        <item>	To Silence	</item>
+        <item>	To Overflow	</item>
+        <item>	To Overburden	</item>
+        <item>	To Shock	</item>
+        <item>	To Furrow	</item>
+        <item>	To Reach	</item>
+        <item>	To Apply For	</item>
+        <item>	To Sound	</item>
+        <item>	To Sound	</item>
+        <item>	To Deafen </item>
+        <item>	To Supply	</item>
+        <item>	To Succeed	</item>
+        <item>	To Follow	</item>
+        <item>	To Survive	</item>
+        <item>	To Lay Off	</item>
+        <item>	To Close	</item>
+        <item>	To Cover	</item>
+        <item>	To Latest	</item>
+        <item>	To Try Out	</item>
+        <item>	To Have	</item>
+        <item>	To Distort	</item>
+        <item>	To Throw	</item>
+        <item>	To Cough	</item>
+        <item>	To Return	</item>
+        <item>	To Transfer	</item>
+        <item>	To Betray	</item>
+        <item>	To Transfigure	</item>
+        <item>	To Work	</item>
+        <item>	To Break	</item>
+        <item>	To Step	</item>
+        <item>	To Cross	</item>
+        <item>	To Carve	</item>
+        <item>	To Succeed	</item>
+        <item>	To Find	</item>
+        <item>	To Worth	</item>
+        <item>	To Pour	</item>
+        <item>	To Ensure	</item>
+        <item>	To Vibrate	</item>
+        <item>	To Vitiate	</item>
+        <item>	To Visit	</item>
+        <item>	To Visualize	</item>
+        <item>	To Live	</item>
+        <item>	To Fly	</item>
+        <item>	To Chat	</item>
+        <item>	To To Whisper	</item>
+        <item>	To Lunge	</item>
+        <item>	To Cramming	</item>
+        <item>	To Encompass	</item>
+        <item>	To Crave	</item>
+        <item>	To Decorate	</item>
+        <item>	To Soften	</item>
+        <item>	To Abolish	</item>
+        <item>	To Hug	</item>
+        <item>	To Get Entangled	</item>
+        <item>	To Brightening	</item>
+        <item>	To Absorb	</item>
+        <item>	To End	</item>
+        <item>	To Abide	</item>
+        <item>	To Access	</item>
+        <item>	To Speed Up	</item>
+        <item>	To Accept	</item>
+        <item>	To Actuate	</item>
+        <item>	To Overwhelm	</item>
+        <item>	To Clear Out	</item>
+        <item>	To Close	</item>
+        <item>	To Couple	</item>
+        <item>	To Accompany	</item>
+        <item>	To Welcome	</item>
+        <item>	To Accommodate	</item>
+        <item>	To Comply	</item>
+        <item>	To Narrow	</item>
+        <item>	To Activate	</item>
+        <item>	To Act	</item>
+        <item>	To Accumulate	</item>
+        <item>	To Accuse	</item>
+        <item>	To Adapt	</item>
+        <item>	To Admit	</item>
+        <item>	To Admire	</item>
+        <item>	Fall Sleep	</item>
+        <item>	To Shave	</item>
+        <item>	To Weaken	</item>
+        <item>	To Favor	</item>
+        <item>	To Hang On	</item>
+        <item>	To Tune	</item>
+        <item>	To Afflicted	</item>
+        <item>	To Drown	</item>
+        <item>	To Agonize	</item>
+        <item>	To Water	</item>
+        <item>	To Isolate	</item>
+        <item>	To Smash	</item>
+        <item>	To Help	</item>
+        <item>	To Lift Up	</item>
+        <item>	To Rise	</item>
+
+    </string-array>
+
+    <string-array name="escenes">
+        <item>	Germany	</item>
+        <item>	Amazon	</item>
+        <item>	North America	</item>
+        <item>	South America	</item>
+        <item>	Amphitheater	</item>
+        <item>	Anarchy	</item>
+        <item>	Antarctica	</item>
+        <item>	Antiquity	</item>
+        <item>	Antipodes	</item>
+        <item>	Argentina	</item>
+        <item>	Closet	</item>
+        <item>	Penthouse	</item>
+        <item>	Pub	</item>
+        <item>	Boat	</item>
+        <item>	Barrack	</item>
+        <item>	Battle	</item>
+        <item>	Wedding	</item>
+        <item>	Bombing	</item>
+        <item>	Forest	</item>
+        <item>	Pocket	</item>
+        <item>	Cabin	</item>
+        <item>	Dungeon	</item>
+        <item>	Camera	</item>
+        <item>	Field	</item>
+        <item>	Capital	</item>
+        <item>	Caravan	</item>
+        <item>	Caribbean	</item>
+        <item>	Tent	</item>
+        <item>	Home	</item>
+        <item>	Waterfall	</item>
+        <item>	Castle	</item>
+        <item>	Catalogue	</item>
+        <item>	Cause	</item>
+        <item>	Cemetery	</item>
+        <item>	Cell	</item>
+        <item>	Summit	</item>
+        <item>	Crag	</item>
+        <item>	Circus	</item>
+        <item>	Class	</item>
+        <item>	Competition	</item>
+        <item>	Congress	</item>
+        <item>	Desert	</item>
+        <item>	Office	</item>
+        <item>	Scale	</item>
+        <item>	Summer	</item>
+        <item>	Watertight	</item>
+        <item>	Exam	</item>
+        <item>	Exile	</item>
+        <item>	Lighthouse	</item>
+        <item>	Fair	</item>
+        <item>	War	</item>
+        <item>	Hades	</item>
+        <item>	Room	</item>
+        <item>	Horizon	</item>
+        <item>	Island	</item>
+        <item>	Highschool	</item>
+        <item>	Archeological Site	</item>
+        <item>	Jurassic	</item>
+        <item>	Masquerade	</item>
+        <item>	Farmhouse	</item>
+        <item>	Market	</item>
+        <item>	Mine	</item>
+        <item>	View Point	</item>
+        <item>	Windmill	</item>
+        <item>	Mountain	</item>
+        <item>	Museum	</item>
+        <item>	Nature	</item>
+        <item>	Shipwreck	</item>
+        <item>	Neptune	</item>
+        <item>	Ocean	</item>
+        <item>	Palace	</item>
+        <item>	Pantheon	</item>
+        <item>	Park	</item>
+        <item>	Walk	</item>
+        <item>	Hall	</item>
+        <item>	Cake Shop	</item>
+        <item>	Pyramid	</item>
+        <item>	Set	</item>
+        <item>	Port	</item>
+        <item>	Water Well	</item>
+        <item>	Precipice	</item>
+        <item>	Depths	</item>
+        <item>	Underworld	</item>
+        <item>	Rapture	</item>
+        <item>	Workshop	</item>
+        <item>	Tribe	</item>
+        <item>	Jungle	</item>
+        <item>	Tunnel	</item>
+        <item>	Hill	</item>
+        <item>	School	</item>
+        <item>	College	</item>
+        <item>	Volcano	</item>
+        <item>	Zoo	</item>
+        <item>	Abbey	</item>
+        <item>	Abyss	</item>
+        <item>	Academy	</item>
+        <item>	Camping	</item>
+        <item>	Accident	</item>
+        <item>	Present	</item>
+        <item>	Tree	</item>
+        <item>	Airplane	</item>
+        <item>	Shelter	</item>
+        <item>	Sunrise	</item>
+        <item>	Eclipse	</item>
+        <item>	Put	</item>
+        <item>	Night	</item>
+        <item>	Africa	</item>
+        <item>	Asia	</item>
+        <item>	Europe	</item>
+
+    </string-array>
+
+    <string-array name="personatges">
+
+        <item>	Mountaineer	</item>
+        <item>	Alchemist	</item>
+        <item>	Amateur	</item>
+        <item>	Amazon	</item>
+        <item>	Host	</item>
+        <item>	Master	</item>
+        <item>	Angel	</item>
+        <item>	Angel	</item>
+        <item>	Antihero	</item>
+        <item>	Prompter	</item>
+        <item>	Alpaca	</item>
+        <item>	Bather	</item>
+        <item>	Amphibian	</item>
+        <item>	Duck	</item>
+        <item>	Eel	</item>
+        <item>	Ant	</item>
+        <item>	Antelope	</item>
+        <item>	Spider	</item>
+        <item>	Harlequin	</item>
+        <item>	Artist	</item>
+        <item>	Astrologer	</item>
+        <item>	Dancer	</item>
+        <item>	Author	</item>
+        <item>	Aviator	</item>
+        <item>	Baboon	</item>
+        <item>	Barber	</item>
+        <item>	Baron	</item>
+        <item>	Twins	</item>
+        <item>	Librarian	</item>
+        <item>	Boa	</item>
+        <item>	Drunk	</item>
+        <item>	Executioner	</item>
+        <item>	Hunter	</item>
+        <item>	Corpse	</item>
+        <item>	Giant Squid	</item>
+        <item>	Farmer	</item>
+        <item>	Champion	</item>
+        <item>	Singer	</item>
+        <item>	Cure	</item>
+        <item>	Chickadee	</item>
+        <item>	Cartographer	</item>
+        <item>	Gentleman	</item>
+        <item>	Ceramist	</item>
+        <item>	Clan	</item>
+        <item>	Accomplice	</item>
+        <item>	Count	</item>
+        <item>	Condemned	</item>
+        <item>	Corsair	</item>
+        <item>	Critical	</item>
+        <item>	Guilty	</item>
+        <item>	Lady	</item>
+        <item>	Deity	</item>
+        <item>	Disciple	</item>
+        <item>	Dentist	</item>
+        <item>	Devil	</item>
+        <item>	Director	</item>
+        <item>	Demon	</item>
+        <item>	Doctor	</item>
+        <item>	Double	</item>
+        <item>	Dragon	</item>
+        <item>	Drunk	</item>
+        <item>	Platoon	</item>
+        <item>	Scribe	</item>
+        <item>	Sphinx	</item>
+        <item>	Foreign	</item>
+        <item>	Student	</item>
+        <item>	Faun	</item>
+        <item>	Smith	</item>
+        <item>	Gargoyle	</item>
+        <item>	Gnome	</item>
+        <item>	Genius	</item>
+        <item>	Gymnast	</item>
+        <item>	Tightrope Walker	</item>
+        <item>	Governor	</item>
+        <item>	Inheritor	</item>
+        <item>	Inheritor	</item>
+        <item>	Historian	</item>
+        <item>	Impostor	</item>
+        <item>	Interpreter	</item>
+        <item>	Invalid	</item>
+        <item>	Judge	</item>
+        <item>	Jury	</item>
+        <item>	Reader	</item>
+        <item>	Linguist	</item>
+        <item>	Majesty	</item>
+        <item>	Butler	</item>
+        <item>	Doctor	</item>
+        <item>	Medium	</item>
+        <item>	Mariner	</item>
+        <item>	Microbe	</item>
+        <item>	Mime	</item>
+        <item>	Miner	</item>
+        <item>	Military	</item>
+        <item>	Minister	</item>
+        <item>	Missionary	</item>
+        <item>	Model	</item>
+        <item>	Preacher	</item>
+        <item>	Monarch	</item>
+        <item>	Monk	</item>
+        <item>	Musician	</item>
+        <item>	Owl	</item>
+        <item>	Baby	</item>
+        <item>	Storyteller	</item>
+        <item>	Swimmer	</item>
+        <item>	Castaway	</item>
+        <item>	Navigator	</item>
+        <item>	Ghoul	</item>
+        <item>	Nymph	</item>
+        <item>	Nomadic	</item>
+        <item>	Necromancer	</item>
+        <item>	Worker	</item>
+        <item>	Oracle	</item>
+        <item>	Goldsmith	</item>
+        <item>	Patient	</item>
+        <item>	Labrador	</item>
+        <item>	Baker	</item>
+        <item>	Master	</item>
+        <item>	Fisherman	</item>
+        <item>	Pianist	</item>
+        <item>	BeGger	</item>
+        <item>	Pilot	</item>
+        <item>	Pirate	</item>
+        <item>	Pyromaniac	</item>
+        <item>	Policeman	</item>
+        <item>	President	</item>
+        <item>	The Prince	</item>
+        <item>	Princess	</item>
+        <item>	King	</item>
+        <item>	Queen	</item>
+        <item>	Ghost	</item>
+        <item>	Spirit	</item>
+        <item>	Shoemaker	</item>
+        <item>	Servant	</item>
+        <item>	Siren	</item>
+        <item>	Survivor	</item>
+        <item>	Tyrant	</item>
+        <item>	Traitor	</item>
+        <item>	Vampire	</item>
+        <item>	Visitor	</item>
+        <item>	Abbot	</item>
+        <item>	Acrobat	</item>
+        <item>	Adept	</item>
+        <item>	Fan	</item>
+        <item>	Administrator	</item>
+        <item>	Teen	</item>
+        <item>	Adonis	</item>
+        <item>	Adulterer	</item>
+        <item>	Attorney	</item>
+        <item>	Aeronaut	</item>
+        <item>	Mayor	</item>
+        <item>	Werewolf	</item>
+
+    </string-array>
+
+    <string-array name="estils">
+        <item>	Poem	</item>
+        <item>	Dialogue	</item>
+        <item>	Theater	</item>
+        <item>	Fiction	</item>
+        <item>	Fantasy	</item>
+        <item>	Epic	</item>
+        <item>	Fable	</item>
+        <item>	Legend	</item>
+        <item>	Song	</item>
+        <item>	Ode	</item>
+        <item>	Anthem	</item>
+        <item>	Elegy	</item>
+        <item>	Eclogue	</item>
+        <item>	Satire	</item>
+        <item>	Epigram	</item>
+        <item>	Romance	</item>
+        <item>	Sonnet	</item>
+        <item>	Chronicle	</item>
+        <item>	Memory	</item>
+        <item>	Letter	</item>
+        <item>	Espionage	</item>
+        <item>	Detectives	</item>
+        <item>	Terror	</item>
+        <item>	Magical	</item>
+
+    </string-array>
+
+    <string-array name="restricc">
+        <item>	100 words	</item>
+        <item>	200 words	</item>
+        <item>	300 words	</item>
+        <item>	400 words	</item>
+        <item>	500 words	</item>
+        <item>	600 words	</item>
+        <item>	700 words	</item>
+        <item>	800 words	</item>
+        <item>	900 words	</item>
+        <item>	1000 words	</item>
+        <item>	3 minutes	</item>
+        <item>	5 minutes	</item>
+        <item>	7 minutes	</item>
+        <item>	10 minutes	</item>
+        <item>	12 minutes	</item>
+        <item>	15 minutes	</item>
+        <item>	20 minutes	</item>
+        <item>	Without the letter A	</item>
+        <item>	Without the letter B	</item>
+        <item>	Without the letter C	</item>
+        <item>	Without the letter D	</item>
+        <item>	Without the letter E	</item>
+        <item>	Without the letter F	</item>
+        <item>	Without the letter G	</item>
+        <item>	Without the letter H	</item>
+        <item>	Without the letter I	</item>
+        <item>	Without the letter J	</item>
+        <item>	Without the letter I	</item>
+        <item>	Without the letter L	</item>
+        <item>	Without the letter M	</item>
+        <item>	Without the letter N	</item>
+        <item>	Without the letter O	</item>
+        <item>	Without the letter P	</item>
+        <item>	Without the letter Q	</item>
+        <item>	Without the letter R	</item>
+        <item>	Without the letter S	</item>
+        <item>	Without the letter T	</item>
+        <item>	Without the letter U	</item>
+        <item>	Without letter V	</item>
+        <item>	Without the letter X	</item>
+        <item>	Without the letter Y	</item>
+        <item>	Without the letter Z	</item>
+        <item>	Without the letter Z	</item>
+        <item>	100 words	</item>
+        <item>	200 words	</item>
+        <item>	300 words	</item>
+        <item>	400 words	</item>
+        <item>	500 words	</item>
+        <item>	600 words	</item>
+        <item>	700 words	</item>
+        <item>	800 words	</item>
+        <item>	900 words	</item>
+        <item>	1000 words	</item>
+        <item>	3 minutes	</item>
+        <item>	5 minutes	</item>
+        <item>	7 minutes	</item>
+        <item>	10 minutes	</item>
+        <item>	12 minutes	</item>
+        <item>	15 minutes	</item>
+        <item>	20 minutes	</item>
+        <item>	100 words	</item>
+        <item>	200 words	</item>
+        <item>	300 words	</item>
+        <item>	400 words	</item>
+        <item>	500 words	</item>
+        <item>	600 words	</item>
+        <item>	700 words	</item>
+        <item>	800 words	</item>
+        <item>	900 words	</item>
+        <item>	1000 words	</item>
+        <item>	3 minutes	</item>
+        <item>	5 minutes	</item>
+        <item>	7 minutes	</item>
+        <item>	10 minutes	</item>
+        <item>	12 minutes	</item>
+        <item>	15 minutes	</item>
+        <item>	20 minutes	</item>
+
+    </string-array>
+
+
+</resources>

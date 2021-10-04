@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name" translatable="false">Taleia</string>
+    <string name="Qui">Who?</string>
+    <string name="Que">What?</string>
+    <string name="On">Where?</string>
+    <string name="Escena">Scene</string>
+
+
+    <string name="Personatge">Create a character</string>
+    <string name="Ocupacio">Who</string>
+    <string name="Caracteristica">Adjectives</string>
+    <string name="Mania">Ticks</string>
+
+
+    <string name="Frase">Challenge</string>
+    <string name="Paraula">Word</string>
+    <string name="Estil">Style</string>
+    <string name="Restriccio">Limitation</string>
+
+
+    <string name="Info">Info</string>
+    <string name="Settings">Settings</string>
+    <string name="Idiomes">Choose a language:</string>
+    <string name="en">English</string>
+    <string name="es">Spanish</string>
+    <string name="cat">Catalan</string>
+    <string name="fr">French</string>
+    <string name="mode">Night mode</string>
+</resources>

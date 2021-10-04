@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.taleia">
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="locale|orientation"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/Settings"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/Info"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FraseActivity"
+            android:label="@string/Frase"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PersonatgeActivity"
+            android:label="@string/Personatge"
+            android:parentActivityName=".MainActivity" /> <!-- amb aixo afegim la flexta de retorn -->
+        <activity
+            android:name=".EscenaActivity"
+            android:label="@string/Escena"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
