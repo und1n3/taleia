@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import com.example.taleia.ui.login.LoginActivity;
+
 import java.util.Locale;
 import java.util.Random;
 
@@ -53,5 +55,12 @@ public class MainActivity extends AppCompatActivity {
         Intent i =new Intent(this, SettingsActivity.class);
         startActivity(i);
 
+    }
+
+
+    public void openLoginActivity(View view) {
+
+        Intent i = new Intent(this, LoginActivity.class);
+        startActivity(i);
     }
 }

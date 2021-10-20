@@ -15,10 +15,10 @@
 
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            />
+            android:id="@+id/log_boto"
+            style="@style/TextIniciStyle"
+            android:text="@string/Login"
+            android:onClick="openLoginActivity"/>
         <TextView
             android:id="@+id/pplescena_boto"
             style="@style/TextIniciStyle"

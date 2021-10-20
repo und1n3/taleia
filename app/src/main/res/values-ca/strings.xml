@@ -4,6 +4,7 @@
     <string name="Que">Què?</string>
     <string name="On">On?</string>
     <string name="Escena">Escena</string>
+    <string name="Login">Log</string>
 
 
     <string name="Personatge">Crea un personatge</string>
@@ -26,4 +27,14 @@
     <string name="cat">Català</string>
     <string name="fr">Francès</string>
     <string name="mode">Mode nit</string>
+
+    <string name="title_activity_login">Entra</string>
+    <string name="prompt_email">Correu</string>
+    <string name="prompt_password">Contrasenya</string>
+    <string name="action_sign_in">Entrar o registre</string>
+    <string name="action_sign_in_short">Entra</string>
+    <string name="welcome">"Benvingut !"</string>
+    <string name="invalid_username">Usuari no valid</string>
+    <string name="invalid_password">Contrasenya ha de tenir >5 caràcters</string>
+    <string name="login_failed">"Registre fallit"</string>
 </resources>

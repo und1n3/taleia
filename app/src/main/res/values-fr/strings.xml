@@ -4,6 +4,7 @@
     <string name="Que">Quoi?</string>
     <string name="On">Où?</string>
     <string name="Escena">Scène</string>
+    <string name="Login">Log</string>
 
 
     <string name="Personatge">Créer un personnage</string>
@@ -26,4 +27,14 @@
     <string name="cat">Catalan</string>
     <string name="fr">Français</string>
     <string name="mode">Mode nuit</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
