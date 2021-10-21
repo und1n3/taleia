@@ -64,6 +64,16 @@
         <item name="android:layout_gravity">center_horizontal</item>
     </style>
 
+    <style name="TextLogStyle">
+        <item name="android:textColor">@color/colorAccentDark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontFamily">@font/rajdhani_semibold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
     <style name="TextBotoInici">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
