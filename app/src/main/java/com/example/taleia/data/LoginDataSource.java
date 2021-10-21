@@ -6,8 +6,7 @@ import java.io.IOException;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import kotlinx.coroutines.GlobalScope;
-import kotlinx.coroutines.launch;
+import kotlin.coroutines.*;
 
 import io.appwrite.Client;
 import io.appwrite.services.Account;
@@ -22,8 +21,8 @@ public class LoginDataSource extends AppCompatActivity {
         try {
             // TODO: handle loggedInUser authentication
             Client client = new Client(getApplicationContext())
-                    .setEndpoint("https://[HOSTNAME_OR_IP]/v1") // Your API Endpoint
-                    .setProject("5df5acd0d48c2"); // Your project ID
+                    .setEndpoint("https://localhost/v1") // Your API Endpoint
+                    .setProject("61687aa9b3b71"); // Your project ID
 
             Account account = new Account(client);
 
