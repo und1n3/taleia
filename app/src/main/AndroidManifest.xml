@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.taleia">
 
     <application
@@ -11,13 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/Login"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.taleia.MainActivity" />
-        </activity>
+             android:name=".ui.login.LoginActivity"
+             android:label="@string/Login"
+             android:parentActivityName=".MainActivity"
+             tools:ignore="DuplicateActivity">
+             <meta-data
+             android:name="android.support.PARENT_ACTIVITY"
+             android:value="com.example.taleia.MainActivity" />
+         </activity>
         <activity
             android:name=".SettingsActivity"
             android:label="@string/Settings"
@@ -45,14 +47,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="io.appwrite.views.CallbackActivity" >
+        <activity android:name="io.appwrite.views.CallbackActivity">
             <intent-filter android:label="android_web_auth">
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
+
                 <data android:scheme="appwrite-callback-61687aa9b3b71" />
-<!--            for now local project id -->
+                <!-- for now local project id -->
             </intent-filter>
         </activity>
     </application>
