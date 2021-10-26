@@ -1,6 +1,7 @@
 package com.example.taleia.data
 
 import com.example.taleia.data.model.LoggedInUser
+import android.content.Context
 
 /**
  * Class that requests authentication and user information from the remote data source and
@@ -27,9 +28,9 @@ class LoginRepository(val dataSource: LoginDataSource) {
         dataSource.logout()
     }
 
-    fun login(username: String, password: String): Result<LoggedInUser> {
+    fun login(context: Context, username: String, password: String): Result<LoggedInUser> {
         // handle login
-        val result = dataSource.login(username, password)
+        val result = dataSource.login(context, username, password)
 
         if (result is Result.Success) {
             setLoggedInUser(result.data)
