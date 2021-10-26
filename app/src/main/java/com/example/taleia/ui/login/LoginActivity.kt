@@ -83,6 +83,7 @@ class LoginActivity : AppCompatActivity() {
                 when (actionId) {
                     EditorInfo.IME_ACTION_DONE ->
                         loginViewModel.login(
+                                applicationContext,
                                 username.text.toString(),
                                 password.text.toString()
                         )
@@ -92,7 +93,7 @@ class LoginActivity : AppCompatActivity() {
 
             login.setOnClickListener {
                 loading.visibility = View.VISIBLE
-                loginViewModel.login(username.text.toString(), password.text.toString())
+                loginViewModel.login(applicationContext, username.text.toString(), password.text.toString())
             }
         }
     }
