@@ -31,6 +31,8 @@
     <string name="title_activity_login">Entra</string>
     <string name="prompt_email">Correu</string>
     <string name="prompt_password">Contrasenya</string>
+    <string name="prompt_username">Usuari</string>
+
     <string name="action_sign_in">Entrar o registre</string>
     <string name="action_sign_in_short">Entra</string>
     <string name="welcome">"Benvingut !"</string>
