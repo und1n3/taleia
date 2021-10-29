@@ -57,8 +57,12 @@ class LoginViewModel: ViewModel() {
     private val _session_token = MutableLiveData<String>().apply {
         value = null
     }
+    private val _errorMessage = MutableLiveData<String>().apply {
+        value = null
+    }
     val user: LiveData<JSONObject> = _user
     val session_token: LiveData<String> = _session_token
+    val errorMessage: LiveData<String> = _errorMessage
 
     fun login(context: Context, mail:String,password: String) {
         // can be launched in a separate asynchronous job
@@ -74,22 +78,24 @@ class LoginViewModel: ViewModel() {
                 _session_token.postValue(session_token)
 
             } catch (e: AppwriteException) {
-                val invalidCredentialsMessage: String = "Invalid credentials"
-                if (JSONObject(e.response).getString("message") == invalidCredentialsMessage) {
-                    val username = displayNamePrompt(context)
-                    createAccount(username,mail, password)
-                    login(context,mail, password)
-                } else {
-                    Toast.makeText(
-                        context,
-                        JSONObject(e.response).getString("message"),
-                        Toast.LENGTH_SHORT
-                    ).show()
-                }
+                val errorMessage = JSONObject(e.response).getString("message")
+                _errorMessage.postValue(errorMessage)
+//                val invalidCredentialsMessage: String = "Invalid credentials"
+//                if (JSONObject(e.response).getString("message") == invalidCredentialsMessage) {
+//                    val username = displayNamePrompt(context)
+//                    createAccount(username,mail, password)
+//                    login(context,mail, password)
+//                } else {
+//                    Toast.makeText(
+//                        context,
+//                        JSONObject(e.response).getString("message"),
+//                        Toast.LENGTH_SHORT
+//                    ).show()
+//                }
             }
         }}
 
-    private fun displayNamePrompt(context: Context) : String {
+    fun displayNamePrompt(context: Context, mail: String,password: String) {
         val li = LayoutInflater.from(context)
         val promptsView: View = li.inflate(R.layout.username_box, null)
 
@@ -102,7 +108,6 @@ class LoginViewModel: ViewModel() {
 
         val userInput = promptsView
             .findViewById(R.id.username) as EditText
-        val name: String = ""
         // set dialog message
         alertDialogBuilder
             .setCancelable(false)
@@ -110,18 +115,17 @@ class LoginViewModel: ViewModel() {
                 DialogInterface.OnClickListener { dialog, id -> // get user input and set it to result
                     // edit text
                     val name = userInput.text.toString()
+                    createAccount(context, name, mail, password)
+
                 })
             .setNegativeButton("Cancel",
                 DialogInterface.OnClickListener { dialog, id -> dialog.cancel() })
 
-
         // create alert dialog
         val alertDialog: AlertDialog = alertDialogBuilder.create()
 
-
         // show it
         alertDialog.show()
-        return name
     }
     private fun getAccount() {
         viewModelScope.launch {
@@ -135,10 +139,11 @@ class LoginViewModel: ViewModel() {
             }
         }
     }
-    private fun createAccount(username: String,mail: String,password: String) {
+    fun createAccount(context: Context, username: String,mail: String,password: String) {
         viewModelScope.launch {
             try {
                 account.create(name=username, email=mail, password=password)
+                login(context, mail, password)
             } catch (e: AppwriteException) {
                 Log.d("Get Account", e.message.toString())
             }

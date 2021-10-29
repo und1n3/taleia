@@ -36,11 +36,19 @@ class LoginActivity : AppCompatActivity() {
 
         loginViewModel.user.observe(this) { user ->
             if (user != null) {
-                Toast.makeText(this,"Hello: "+user.getString("name")+"!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Hello: " + user.getString("name") + "!", Toast.LENGTH_SHORT)
+                    .show()
                 finish()
-            } else {
-
             }
+        }
+        loginViewModel.errorMessage.observe(this) { errorMessage ->
+            if (errorMessage == "Invalid credentials") {
+                loginViewModel.displayNamePrompt(this,mail.text.toString(), password.text.toString())
+            }
+            else if (errorMessage!= null) {
+                Toast.makeText(this,"Error: "+errorMessage, Toast.LENGTH_SHORT).show()
+            }
+
         }
 
 
