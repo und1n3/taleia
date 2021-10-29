@@ -21,17 +21,17 @@ import com.example.taleia.R
 import android.view.LayoutInflater
 import android.view.View
 import android.content.DialogInterface
+import android.view.Menu
 
 
 import android.widget.EditText
-
-
-
+import com.example.taleia.MainActivity
+import com.google.android.material.navigation.NavigationView
 
 
 class LoginViewModel: ViewModel() {
 //    private val collectionId = "608faab562521"
-
+    private lateinit var mainActivity: MainActivity
     private lateinit var client: Client
     private lateinit var account: Account
 //    private lateinit var db: Database
@@ -73,6 +73,9 @@ class LoginViewModel: ViewModel() {
                     password = password
                 )
                 getAccount()
+                mainActivity.hideMenuItems()
+
+
                 var json = response.body?.string() ?: ""
                 val session_token = JSONObject(json).getString("providerToken")
                 _session_token.postValue(session_token)
@@ -149,4 +152,6 @@ class LoginViewModel: ViewModel() {
             }
         }
     }
+
+
     }

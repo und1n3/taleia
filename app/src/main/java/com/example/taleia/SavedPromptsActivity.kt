@@ -3,9 +3,9 @@ package com.example.taleia
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class InfoActivity : AppCompatActivity() {
+class SavedPromptsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_info)
+        setContentView(R.layout.activity_saved_prompts)
     }
 }

@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/marta/my_projects/taleia/app/src/main/res/layout/activity_info.xml" value="0.16458333333333333" />
         <entry key="..\:/Users/marta/my_projects/taleia/app/src/main/res/layout/activity_login.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/marta/my_projects/taleia/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/marta/my_projects/taleia/app/src/main/res/layout/activity_saved_prompts.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/marta/my_projects/taleia/app/src/main/res/layout/user_menu.xml" value="0.1" />
         <entry key="..\:/Users/marta/my_projects/taleia/app/src/main/res/layout/username_box.xml" value="0.2056159420289855" />
       </map>
     </option>

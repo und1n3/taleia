@@ -33,4 +33,5 @@ class FraseActivity : AppCompatActivity() {
             restriccio.text = restr[n]
         }
     }
+
 }

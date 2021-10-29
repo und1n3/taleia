@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_saved_prompts"
+            android:title="@string/saved_prompts"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_settings"
+            android:title="@string/menu_settings"
+            android:visible="false"/>
+        <item
+            android:id="@+id/log_out_button"
+            android:title="@string/log_out"
+            android:visible="false"/>
+        <item
+            android:id="@+id/log_in_button"
+            android:title="@string/log_in"
+            android:visible="true"/>
+    </group>
+</menu>
