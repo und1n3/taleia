@@ -1,5 +1,6 @@
 package com.example.taleia
 
+import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.taleia.R
@@ -8,6 +9,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.taleia.EscenaActivity
 import com.example.taleia.PersonatgeActivity
 import com.example.taleia.FraseActivity
@@ -18,15 +20,33 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.annotation.NonNull
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import com.example.taleia.ui.login.LoginViewModel
 import com.google.android.material.navigation.NavigationView
+import org.json.JSONObject
 
 
 class MainActivity : AppCompatActivity() {
     lateinit var toggle : ActionBarDrawerToggle
 
+    private var loginSession = MutableLiveData<String>().apply {
+        value = null
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+        loginSession.observe(this, Observer() { loginStatus ->
+                if (loginStatus != null) {
+                    showMenuItems()
+                }else{
+                    hideMenuItems()
+                }
+        })
 
         val drawerLayout : DrawerLayout = findViewById(R.id.drawer)
         val navView: NavigationView = findViewById(R.id.navigation_view)
@@ -36,7 +56,16 @@ class MainActivity : AppCompatActivity() {
         toggle.syncState()
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
+        var resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
+            if (result.resultCode == Activity.RESULT_OK) {
+                // There are no request codes
+                val data: Intent? = result.data
+                loginSession.postValue(data?.getStringExtra("sessionToken"))
+            }
+            else{
+                print("hi")
+            }
+        }
         navView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.menu_saved_prompts -> {
@@ -47,11 +76,14 @@ class MainActivity : AppCompatActivity() {
                 R.id.log_out_button -> Toast.makeText(applicationContext, "Android login out Clicked", Toast.LENGTH_LONG).show()
                 R.id.log_in_button -> {
                     val i = Intent(this, LoginActivity::class.java)
-                    this.startActivity(i)
+                    resultLauncher.launch(i)
+
+
                 }
             }
             true
         }
+
 
     }
 
@@ -87,12 +119,22 @@ class MainActivity : AppCompatActivity() {
         val i = Intent(this, SettingsActivity::class.java)
         startActivity(i)
     }
-    fun hideMenuItems():Unit {
+    fun showMenuItems():Unit {
         val navigationView : NavigationView = findViewById<NavigationView>(R.id.navigation_view)
         navigationView.getMenu().findItem(R.id.log_in_button).setVisible(false)
         navigationView.getMenu().findItem(R.id.menu_saved_prompts).setVisible(true)
         navigationView.getMenu().findItem(R.id.menu_settings).setVisible(true)
         navigationView.getMenu().findItem(R.id.log_out_button).setVisible(true)
     }
+
+    fun hideMenuItems():Unit {
+        val navigationView : NavigationView = findViewById<NavigationView>(R.id.navigation_view)
+        navigationView.getMenu().findItem(R.id.log_in_button).setVisible(true)
+        navigationView.getMenu().findItem(R.id.menu_saved_prompts).setVisible(false)
+        navigationView.getMenu().findItem(R.id.menu_settings).setVisible(false)
+        navigationView.getMenu().findItem(R.id.log_out_button).setVisible(false)
+    }
+
+
 
 }

@@ -1,5 +1,6 @@
 package com.example.taleia.ui.login
 
+import android.content.Intent
 import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
@@ -38,6 +39,9 @@ class LoginActivity : AppCompatActivity() {
             if (user != null) {
                 Toast.makeText(this, "Hello: " + user.getString("name") + "!", Toast.LENGTH_SHORT)
                     .show()
+                val intentResult = Intent()
+                intentResult.putExtra("sessionToken",loginViewModel.session_token.toString())
+                setResult(-1,intentResult)
                 finish()
             }
         }
@@ -49,6 +53,11 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this,"Error: "+errorMessage, Toast.LENGTH_SHORT).show()
             }
 
+        }
+        loginViewModel.session_token.observe(this){sessionToken ->
+            if (sessionToken != null){
+
+            }
         }
 
 

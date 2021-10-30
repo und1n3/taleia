@@ -80,18 +80,7 @@ class LoginViewModel: ViewModel() {
             } catch (e: AppwriteException) {
                 val errorMessage = JSONObject(e.response).getString("message")
                 _errorMessage.postValue(errorMessage)
-//                val invalidCredentialsMessage: String = "Invalid credentials"
-//                if (JSONObject(e.response).getString("message") == invalidCredentialsMessage) {
-//                    val username = displayNamePrompt(context)
-//                    createAccount(username,mail, password)
-//                    login(context,mail, password)
-//                } else {
-//                    Toast.makeText(
-//                        context,
-//                        JSONObject(e.response).getString("message"),
-//                        Toast.LENGTH_SHORT
-//                    ).show()
-//                }
+
             }
         }}
 
