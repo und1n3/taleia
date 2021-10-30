@@ -22,57 +22,45 @@ import com.google.android.material.navigation.NavigationView
 
 
 class MainActivity : AppCompatActivity() {
-    var drawerLayout: DrawerLayout? = null
-    var actionBarDrawerToggle: ActionBarDrawerToggle? = null
+    lateinit var toggle : ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val drawerLayout : DrawerLayout = findViewById(R.id.drawer)
+        val navView: NavigationView = findViewById(R.id.navigation_view)
 
-        drawerLayout = findViewById(R.id.drawer)
-        actionBarDrawerToggle =
-            ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
+        toggle = ActionBarDrawerToggle(this,drawerLayout,R.string.nav_open,R.string.nav_close)
+        drawerLayout.addDrawerListener(toggle)
+        toggle.syncState()
 
-        drawerLayout?.addDrawerListener(actionBarDrawerToggle!!)
-        actionBarDrawerToggle!!.syncState()
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (actionBarDrawerToggle!!.onOptionsItemSelected(item)) {
-            when (item.itemId) {
+        navView.setNavigationItemSelectedListener {
+            when (it.itemId) {
                 R.id.menu_saved_prompts -> {
-                    Toast.makeText(this, "Android prompts is Clicked", Toast.LENGTH_LONG).show()
-
                     val i = Intent(this, SavedPromptsActivity::class.java)
                     this.startActivity(i)
                 }
-                R.id.menu_settings -> {
-//                    val i = Intent(this, UserSettingsActivity::class.java)
-//                    this.startActivity(i)
-                    Toast.makeText(this, "Android Menu is Clicked", Toast.LENGTH_LONG).show()
-                }
-                R.id.log_out_button -> {
-//                    val i = Intent(this, LogOutActivity::class.java)
-//                    this.startActivity(i)
-                    Toast.makeText(this, "Android Logout is Clicked", Toast.LENGTH_LONG).show()
-
-                }
+                R.id.menu_settings -> Toast.makeText(applicationContext, "Android Menu is Clicked", Toast.LENGTH_LONG).show()
+                R.id.log_out_button -> Toast.makeText(applicationContext, "Android login out Clicked", Toast.LENGTH_LONG).show()
                 R.id.log_in_button -> {
-                    Toast.makeText(this, "Android login is Clicked", Toast.LENGTH_LONG).show()
-
                     val i = Intent(this, LoginActivity::class.java)
                     this.startActivity(i)
                 }
-
-                else -> return super.onOptionsItemSelected(item)
             }
-            return true
-        }else return super.onOptionsItemSelected(item)
+            true
+        }
+
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(toggle.onOptionsItemSelected(item)){
+            return true
+        }
+        return super.onOptionsItemSelected(item)
+    }
 
 
     fun openEscenaActivity(view: View?) {
@@ -100,16 +88,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(i)
     }
     fun hideMenuItems():Unit {
-        val navigationView = findViewById<NavigationView>(R.id.navigation_view)
+        val navigationView : NavigationView = findViewById<NavigationView>(R.id.navigation_view)
         navigationView.getMenu().findItem(R.id.log_in_button).setVisible(false)
         navigationView.getMenu().findItem(R.id.menu_saved_prompts).setVisible(true)
         navigationView.getMenu().findItem(R.id.menu_settings).setVisible(true)
         navigationView.getMenu().findItem(R.id.log_out_button).setVisible(true)
     }
-//
-//    fun openLoginActivity(view: View?) {
-//        val i = Intent(this, LoginActivity::class.java)
-//        startActivity(i)
-//    }
 
 }

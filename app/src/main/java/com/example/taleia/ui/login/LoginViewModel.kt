@@ -31,7 +31,6 @@ import com.google.android.material.navigation.NavigationView
 
 class LoginViewModel: ViewModel() {
 //    private val collectionId = "608faab562521"
-    private lateinit var mainActivity: MainActivity
     private lateinit var client: Client
     private lateinit var account: Account
 //    private lateinit var db: Database
@@ -73,8 +72,6 @@ class LoginViewModel: ViewModel() {
                     password = password
                 )
                 getAccount()
-                mainActivity.hideMenuItems()
-
 
                 var json = response.body?.string() ?: ""
                 val session_token = JSONObject(json).getString("providerToken")
