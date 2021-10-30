@@ -40,10 +40,10 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Hello: " + user.getString("name") + "!", Toast.LENGTH_SHORT)
                     .show()
                 val intentResult = Intent()
-                intentResult.putExtra("nameUser",user.getString("name"))
-                intentResult.putExtra("mailUser",user.getString("email"))
-
-                setResult(-1,intentResult)
+//                intentResult.putExtra("nameUser",user.getString("name"))
+//                intentResult.putExtra("mailUser",user.getString("email"))
+//
+//                setResult(-1,intentResult)
                 finish()
             }
         }

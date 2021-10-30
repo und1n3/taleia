@@ -1,8 +1,6 @@
 package com.example.taleia
 
 import android.app.Activity
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import com.example.taleia.R
 import android.content.Intent
 import android.view.Menu
@@ -27,23 +25,25 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.taleia.ui.login.LoginViewModel
 import com.google.android.material.navigation.NavigationView
 import org.json.JSONObject
-
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import io.appwrite.Client
+import io.appwrite.services.Account
 
 class MainActivity : AppCompatActivity() {
     lateinit var toggle : ActionBarDrawerToggle
+    private lateinit var mainViewModel: MainViewModel
 
-    private var nameUser = MutableLiveData<String>().apply {
-        value = null
-    }
-    private var mailUser = MutableLiveData<String>().apply {
-        value = null
-    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
-        nameUser.observe(this, Observer() { loginStatus ->
+        mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
+        mainViewModel.create(this)
+        mainViewModel.getCurrentAccount()
+        mainViewModel._session.observe(this, Observer() { loginStatus ->
                 if (loginStatus != null) {
                     showMenuItems()
                 }else{
@@ -59,35 +59,20 @@ class MainActivity : AppCompatActivity() {
         toggle.syncState()
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        var resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
-            if (result.resultCode == Activity.RESULT_OK) {
 
-                val data: Intent? = result.data
-                nameUser.postValue(data?.getStringExtra("nameUser"))
-                mailUser.postValue(data?.getStringExtra("mailUser"))
-
-            }
-            else{
-                print("hi")
-            }
-            print("o")
-        }
 
         navView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.menu_saved_prompts -> {
                     val i = Intent(this, SavedPromptsActivity::class.java)
-                    i.putExtra("nameUser",nameUser.value)
-                    i.putExtra("mailUser",mailUser.value)
-                    setResult(-1,i)
-                    resultLauncher.launch(i)
+
+                    startActivity(i)
                 }
                 R.id.menu_settings -> Toast.makeText(applicationContext, "Android Menu is Clicked", Toast.LENGTH_LONG).show()
                 R.id.log_out_button -> Toast.makeText(applicationContext, "Android login out Clicked", Toast.LENGTH_LONG).show()
                 R.id.log_in_button -> {
                     val i = Intent(this, LoginActivity::class.java)
-                    resultLauncher.launch(i)
-
+                    startActivity(i)
                 }
             }
             true
@@ -96,6 +81,11 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    override fun onResume() {
+        mainViewModel.create(this)
+        mainViewModel.getCurrentAccount()
+        super.onResume()
+    }
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(toggle.onOptionsItemSelected(item)){
             return true
