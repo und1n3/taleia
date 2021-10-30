@@ -9,5 +9,6 @@ class SavedPromptsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_saved_prompts)
 
+
     }
 }
