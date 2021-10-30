@@ -17,6 +17,12 @@ class EscenaActivity : AppCompatActivity() {
         val mots = res.getStringArray(R.array.paraules)
         val escena = res.getStringArray(R.array.escenes)
         val protagonista = res.getStringArray(R.array.personatges)
+
+
+        val name = intent.getStringExtra("nameUser")
+        val mail = intent.getStringExtra("mailUser")
+
+
         paraula.setOnClickListener { //aquí el codi pel boto
             val rand = Random() //agafem num aleatori
             val n = rand.nextInt(574)

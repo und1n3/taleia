@@ -32,7 +32,10 @@ import org.json.JSONObject
 class MainActivity : AppCompatActivity() {
     lateinit var toggle : ActionBarDrawerToggle
 
-    private var loginSession = MutableLiveData<String>().apply {
+    private var nameUser = MutableLiveData<String>().apply {
+        value = null
+    }
+    private var mailUser = MutableLiveData<String>().apply {
         value = null
     }
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -40,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        loginSession.observe(this, Observer() { loginStatus ->
+        nameUser.observe(this, Observer() { loginStatus ->
                 if (loginStatus != null) {
                     showMenuItems()
                 }else{
@@ -58,26 +61,32 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         var resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
             if (result.resultCode == Activity.RESULT_OK) {
-                // There are no request codes
+
                 val data: Intent? = result.data
-                loginSession.postValue(data?.getStringExtra("sessionToken"))
+                nameUser.postValue(data?.getStringExtra("nameUser"))
+                mailUser.postValue(data?.getStringExtra("mailUser"))
+
             }
             else{
                 print("hi")
             }
+            print("o")
         }
+
         navView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.menu_saved_prompts -> {
                     val i = Intent(this, SavedPromptsActivity::class.java)
-                    this.startActivity(i)
+                    i.putExtra("nameUser",nameUser.value)
+                    i.putExtra("mailUser",mailUser.value)
+                    setResult(-1,i)
+                    resultLauncher.launch(i)
                 }
                 R.id.menu_settings -> Toast.makeText(applicationContext, "Android Menu is Clicked", Toast.LENGTH_LONG).show()
                 R.id.log_out_button -> Toast.makeText(applicationContext, "Android login out Clicked", Toast.LENGTH_LONG).show()
                 R.id.log_in_button -> {
                     val i = Intent(this, LoginActivity::class.java)
                     resultLauncher.launch(i)
-
 
                 }
             }
