@@ -11,21 +11,21 @@ It has 3 main screens:
 
 Implemented a Log In / Sign In functionality with AppWrite ( )
 
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/main_screen.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/info.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/main_screen.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/info.jpg?raw=true)
 
 Once logged in the user can save the combinations (stored in the AppWrite platform).
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/loged_menu.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/login_menu.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/name_alert.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/loged_menu.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/login_menu.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/name_alert.jpg?raw=true)
 
 They will be displayed in a Toast message (scrollView still in progress)
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/saved_combo.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/toast.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/saved_combo.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/toast.jpg?raw=true)
 
 Here we can see the saved files in Appwrite:
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/app_users.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/master/readme_images/app_docs.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/app_users.jpg?raw=true)
+![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/app_docs.jpg?raw=true)
 
 Hope you like it!
 
