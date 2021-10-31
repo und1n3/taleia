@@ -15,7 +15,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.widget.Toast
+import com.google.gson.Gson
+import com.google.gson.GsonBuilder
+import com.google.gson.JsonObject
 import io.appwrite.services.Database
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.delay
+import okhttp3.internal.wait
+import java.util.*
+import kotlin.collections.ArrayList
 
 class MainViewModel: ViewModel() {
     private lateinit var client: Client
@@ -24,6 +33,9 @@ class MainViewModel: ViewModel() {
     val _session = MutableLiveData<JSONObject>().apply {
         value = null
     }
+    private val _documentList = MutableLiveData<ArrayList<String?>>()
+    val documentlist: LiveData<ArrayList<String?>> = _documentList
+
 
     fun create(context: Context) {
         client = Client(context)
@@ -51,9 +63,7 @@ class MainViewModel: ViewModel() {
                     try {
                         val response = database.createDocument(
                             collectionId = collectionId,
-                            data = mapOf("who" to personatge,"what" to paraula, "where" to escena),
-                            read = arrayListOf("*"),
-                            write = arrayListOf("*")
+                            data = mapOf("who" to personatge,"what" to paraula, "where" to escena)
                         )
                         val json = response.body?.string()
                         Toast.makeText(context, "Saved!", Toast.LENGTH_LONG).show()
@@ -70,9 +80,7 @@ class MainViewModel: ViewModel() {
             try {
                 val response = database.createDocument(
                     collectionId = collectionId,
-                    data = mapOf("who" to personatge,"adj" to adjectiu, "tick1" to tick1,"tick2" to tick2),
-                    read = arrayListOf("*"),
-                    write = arrayListOf("*")
+                    data = mapOf("who" to personatge,"adj" to adjectiu, "tick1" to tick1,"tick2" to tick2)
                 )
                 val json = response.body?.string()
                 Toast.makeText(context, "Saved!", Toast.LENGTH_LONG).show()
@@ -93,9 +101,7 @@ class MainViewModel: ViewModel() {
                         "what" to personatge,
                         "style" to estil,
                         "restrict" to restriccio,
-                    ),
-                    read = arrayListOf("*"),
-                    write = arrayListOf("*")
+                    )
                 )
                 val json = response.body?.string()
                 Toast.makeText(context, "Saved!", Toast.LENGTH_LONG).show()
@@ -106,6 +112,40 @@ class MainViewModel: ViewModel() {
             }
         }
     }
+    fun listDocuments(context: Context, collectionId: String, offset: Int) : ArrayList<String>{
+        val docs : ArrayList<String> = ArrayList()
+
+        viewModelScope.launch {
+            val session = account.get()
+
+            val json = session.body?.string() ?: ""
+            val sessionJSON :JSONObject = JSONObject(json)
+            val id: String = sessionJSON.getString("$"+"id")
+            val response = database.listDocuments(
+                collectionId = collectionId,
+                offset = offset,
+            )
+            val a =JSONObject(response.body?.string())
+            val documents = a.getJSONArray("documents")
+
+            for (i in 0 until documents.length()) {
+                val item = documents.getJSONObject(i)
+                if (id in item.getJSONObject("$"+"permissions").getString("read")){
+                    val card = "WHO: "+item.getString("who")+
+                            " / WHAT: "+ item.getString("what")+
+                            " / WHERE: "+item.getString("where")
+                    docs.add(card)
+                    _documentList.value?.add(card)
+                }
+            }
 
 
+            Toast.makeText(context,docs.toString(),Toast.LENGTH_LONG).show()
+
+//            _documentList.postValue(docs.toSet())
+        }
+
+        return docs
+
+    }
 }

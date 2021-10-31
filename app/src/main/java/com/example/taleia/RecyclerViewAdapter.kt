@@ -34,12 +34,7 @@ class RecyclerViewAdapter(var mItemList: List<String?>?) :
         return if (mItemList == null) 0 else mItemList!!.size
     }
 
-    /**
-     * The following method decides the type of ViewHolder to display in the RecyclerView
-     *
-     * @param position
-     * @return
-     */
+
     override fun getItemViewType(position: Int): Int {
         return if (mItemList!![position] == null) VIEW_TYPE_LOADING else VIEW_TYPE_ITEM
     }
