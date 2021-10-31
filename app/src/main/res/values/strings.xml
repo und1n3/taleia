@@ -45,4 +45,8 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
+    <string name="taleia_info">"Let's stop de creative's block! \n
+        This app generates random scenes, characters and challenges to keep the juices flowing. \n
+        You can save any prompt you fancy with the save button, thanks to the appwrite backend."</string>
 </resources>

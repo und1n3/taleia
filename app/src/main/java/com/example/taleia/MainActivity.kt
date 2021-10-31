@@ -69,7 +69,10 @@ class MainActivity : AppCompatActivity() {
                     startActivity(i)
                 }
                 R.id.menu_settings -> Toast.makeText(applicationContext, "Android Menu is Clicked", Toast.LENGTH_LONG).show()
-                R.id.log_out_button -> Toast.makeText(applicationContext, "Android login out Clicked", Toast.LENGTH_LONG).show()
+                R.id.log_out_button -> {
+                    Toast.makeText(applicationContext, "Android login out Clicked", Toast.LENGTH_LONG).show()
+                    mainViewModel.logOut()
+                }
                 R.id.log_in_button -> {
                     val i = Intent(this, LoginActivity::class.java)
                     startActivity(i)

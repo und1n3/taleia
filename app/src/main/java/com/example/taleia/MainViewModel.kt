@@ -148,4 +148,19 @@ class MainViewModel: ViewModel() {
         return docs
 
     }
+    fun logOut(){
+
+        viewModelScope.launch {
+            try {
+                val response = account.deleteSession(
+                    sessionId = "current"
+                )
+                val json = response.body?.string()
+                _session.postValue(null)
+
+            } catch (e: AppwriteException) {
+                val errorMessage = JSONObject(e.response).getString("message")
+            }
+        }
+    }
 }
