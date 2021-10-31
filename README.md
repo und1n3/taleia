@@ -11,21 +11,33 @@ It has 3 main screens:
 
 Implemented a Log In / Sign In functionality with AppWrite ( )
 
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/main_screen.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/info.jpg?raw=true)
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/main_screen.png" alt="drawing" width="200"/>
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/info.png" alt="drawing" width="200"/>
+
 
 Once logged in the user can save the combinations (stored in the AppWrite platform).
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/loged_menu.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/login_menu.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/name_alert.jpg?raw=true)
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/loged_menu.png" alt="drawing" width="200"/>
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/login_menu.png" alt="drawing" width="200"/>
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/name_alert.png" alt="drawing" width="200"/>
+
 
 They will be displayed in a Toast message (scrollView still in progress)
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/saved_combo.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/toast.jpg?raw=true)
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/saved_combo.png" alt="drawing" width="200"/>
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/toast.png" alt="drawing" width="200"/>
+
 
 Here we can see the saved files in Appwrite:
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/app_users.jpg?raw=true)
-![alt text](https://github.com/und1n3/taleia/blob/main/readme_images/app_docs.jpg?raw=true)
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/app_users.png" alt="drawing" height="300"/>
+
+<img src="https://github.com/und1n3/taleia/blob/main/readme_images/app_docs.png" alt="drawing" height="300"/>
+
 
 Hope you like it!
 
