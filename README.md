@@ -42,7 +42,7 @@ Here we can see the saved files in Appwrite:
 In order for it to run, we need to create an Android project and inside this projects the following three collections:
 
 ### Scene
-Will be used to store the scene combinations. It has to be set with the following Rules and Persmissions:
+Will be used to store the scene combinations. It has to be set with the following Rules and Permissions:
 
  - **Rules**:
 	 - who : *Text*
@@ -54,7 +54,7 @@ Will be used to store the scene combinations. It has to be set with the followin
 	 - write access : *
 
 ### Character
-Will be to  store the character combinations. It has to be set with the following Rules and Presmissions:
+Will be to  store the character combinations. It has to be set with the following Rules and Permissions:
 
  - **Rules**:
 	 - who : *Text*
@@ -67,7 +67,7 @@ Will be to  store the character combinations. It has to be set with the followin
 	 - write access: *
 
 ### Challange
-Will be to store the challange combinations. It has to be set with the following Rules and Presmissions:
+Will be to store the challange combinations. It has to be set with the following Rules and Permissions:
 
  - **Rules**:
 	 - what : *Text*
